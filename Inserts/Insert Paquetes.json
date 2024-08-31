@@ -1,0 +1,1223 @@
+db.paquetes.insertMany([
+    {
+        id_paquete: "P001",
+        categoria: "Productos Electronicos",
+        peso: NumberDecimal("1.2"),
+        dimensiones: {
+            longitud: NumberDecimal("30.5"),
+            ancho: NumberDecimal("20.0"),
+            altura: NumberDecimal("15.0")
+        },
+        valor: NumberDecimal("5000"),
+        direccion_entrega: {
+            estado: "Ciudad de Mexico",
+            ciudad: "Cuauhtemoc",
+            calle: "Tlaloc",
+            colonia: "Renacimiento",
+            numext: "135",
+            codpos: "06500"
+        },
+        id_usuario: "U001"
+    },
+    {
+        id_paquete: "P002",
+        categoria: "Ropa y Accesorios",
+        peso: NumberDecimal("0.8"),
+        dimensiones: {
+            longitud: NumberDecimal("25.0"),
+            ancho: NumberDecimal("15.0"),
+            altura: NumberDecimal("10.0")
+        },
+        valor: NumberDecimal("1500"),
+        direccion_entrega: {
+            estado: "Sinaloa",
+            ciudad: "Culiacan",
+            calle: "Armas",
+            colonia: "Nueva Dorada",
+            numext: "23",
+            codpos: "80300"
+        },
+        id_usuario: "U002"
+    },
+    {
+        id_paquete: "P003",
+        categoria: "Productos del Hogar y Oficina",
+        peso: NumberDecimal("2.5"),
+        dimensiones: {
+            longitud: NumberDecimal("35.0"),
+            ancho: NumberDecimal("25.0"),
+            altura: NumberDecimal("20.0")
+        },
+        valor: NumberDecimal("3000"),
+        direccion_entrega: {
+            estado: "Sonora",
+            ciudad: "Hermosillo",
+            calle: "Tulipan",
+            colonia: "Flores",
+            numext: "210",
+            codpos: "83400"
+        },
+        id_usuario: "U003"
+    },
+    {
+        id_paquete: "P004",
+        categoria: "Productos Deportivos",
+        peso: NumberDecimal("3.0"),
+        dimensiones: {
+            longitud: NumberDecimal("40.0"),
+            ancho: NumberDecimal("30.0"),
+            altura: NumberDecimal("20.0")
+        },
+        valor: NumberDecimal("4500"),
+        direccion_entrega: {
+            estado: "Veracruz",
+            ciudad: "Boca del Rio",
+            calle: "Pulpo",
+            colonia: "Tampiquera",
+            numext: "132",
+            codpos: "91223"
+        },
+        id_usuario: "U004"
+    },
+    {
+        id_paquete: "P005",
+        categoria: "Productos Electronicos",
+        peso: NumberDecimal("1.8"),
+        dimensiones: {
+            longitud: NumberDecimal("32.0"),
+            ancho: NumberDecimal("22.0"),
+            altura: NumberDecimal("18.0")
+        },
+        valor: NumberDecimal("6000"),
+        direccion_entrega: {
+            estado: "Ciudad de Mexico",
+            ciudad: "Tlahuac",
+            calle: "Prolongacion Begonia",
+            colonia: "Los Reyes",
+            numext: "87",
+            codpos: "13400"
+        },
+        id_usuario: "U005"
+    },
+    {
+        id_paquete: "P006",
+        categoria: "Ropa y Accesorios",
+        peso: NumberDecimal("0.9"),
+        dimensiones: {
+            longitud: NumberDecimal("27.0"),
+            ancho: NumberDecimal("17.0"),
+            altura: NumberDecimal("12.0")
+        },
+        valor: NumberDecimal("2000"),
+        direccion_entrega: {
+            estado: "Nuevo Leon",
+            ciudad: "Guadalupe",
+            calle: "Silla",
+            colonia: "Santa Ines",
+            numext: "40",
+            codpos: "64300"
+        },
+        id_usuario: "U006"
+    },
+    {
+        id_paquete: "P007",
+        categoria: "Productos del Hogar y Oficina",
+        peso: NumberDecimal("2.0"),
+        dimensiones: {
+            longitud: NumberDecimal("30.0"),
+            ancho: NumberDecimal("20.0"),
+            altura: NumberDecimal("15.0")
+        },
+        valor: NumberDecimal("3500"),
+        direccion_entrega: {
+            estado: "Nuevo Leon",
+            ciudad: "Monterrey",
+            calle: "Doctores",
+            colonia: "Acedros",
+            numext: "236",
+            codpos: "64200"
+        },
+        id_usuario: "U007"
+    },
+    {
+        id_paquete: "P008",
+        categoria: "Productos Deportivos",
+        peso: NumberDecimal("3.5"),
+        dimensiones: {
+            longitud: NumberDecimal("45.0"),
+            ancho: NumberDecimal("35.0"),
+            altura: NumberDecimal("25.0")
+        },
+        valor: NumberDecimal("5000"),
+        direccion_entrega: {
+            estado: "Morelos",
+            ciudad: "Tlayacapan",
+            calle: "Ampliacion Malacates",
+            colonia: "Tlayacapan",
+            numext: "300",
+            numint: "4",
+            codpos: "62400"
+        },
+        id_usuario: "U008"
+    },
+    {
+        id_paquete: "P009",
+        categoria: "Productos Electronicos",
+        peso: NumberDecimal("1.0"),
+        dimensiones: {
+            longitud: NumberDecimal("28.0"),
+            ancho: NumberDecimal("18.0"),
+            altura: NumberDecimal("12.0")
+        },
+        valor: NumberDecimal("4000"),
+        direccion_entrega: {
+            estado: "Ciudad de Mexico",
+            ciudad: "Milpa Alta",
+            calle: "Lima",
+            colonia: "San Miguel",
+            numext: "502",
+            codpos: "16299"
+        },
+        id_usuario: "U009"
+    },
+    {
+        id_paquete: "P010",
+        categoria: "Ropa y Accesorios",
+        peso: NumberDecimal("0.7"),
+        dimensiones: {
+            longitud: NumberDecimal("24.0"),
+            ancho: NumberDecimal("14.0"),
+            altura: NumberDecimal("10.0")
+        },
+        valor: NumberDecimal("1800"),
+        direccion_entrega: {
+            estado: "Yucatan",
+            ciudad: "Merida",
+            calle: "Turba",
+            colonia: "Via Muerta",
+            numext: "22",
+            numint: "104",
+            codpos: "97833"
+        },
+        id_usuario: "U010"
+    },
+    {
+        id_paquete: "P011",
+        categoria: "Productos del Hogar y Oficina",
+        peso: NumberDecimal("2.2"),
+        dimensiones: {
+            longitud: NumberDecimal("33.0"),
+            ancho: NumberDecimal("23.0"),
+            altura: NumberDecimal("18.0")
+        },
+        valor: NumberDecimal("3200"),
+        direccion_entrega: {
+            estado: "Jalisco",
+            ciudad: "Guadalajara",
+            calle: "Pandas",
+            colonia: "Nueva Revolucion",
+            numext: "422",
+            codpos: "44100"
+        },
+        id_usuario: "U011"
+    },
+    {
+        id_paquete: "P012",
+        categoria: "Productos Deportivos",
+        peso: NumberDecimal("3.8"),
+        dimensiones: {
+            longitud: NumberDecimal("47.0"),
+            ancho: NumberDecimal("37.0"),
+            altura: NumberDecimal("27.0")
+        },
+        valor: NumberDecimal("5500"),
+        direccion_entrega: {
+            estado: "Ciudad de Mexico",
+            ciudad: "Gustavo A. Madero",
+            calle: "Norte 79",
+            colonia: "Marte",
+            numext: "810",
+            codpos: "07100"
+        },
+        id_usuario: "U012"
+    },
+    {
+        id_paquete: "P013",
+        categoria: "Productos Electronicos",
+        peso: NumberDecimal("1.5"),
+        dimensiones: {
+            longitud: NumberDecimal("31.0"),
+            ancho: NumberDecimal("21.0"),
+            altura: NumberDecimal("16.0")
+        },
+        valor: NumberDecimal("4500"),
+        direccion_entrega: {
+            estado: "Estado de Mexico",
+            ciudad: "Atizapan",
+            calle: "Prados",
+            colonia: "Granjas",
+            numext: "165",
+            codpos: "56100"
+        },
+        id_usuario: "U013"
+    },
+    {
+        id_paquete: "P014",
+        categoria: "Ropa y Accesorios",
+        peso: NumberDecimal("0.6"),
+        dimensiones: {
+            longitud: NumberDecimal("22.0"),
+            ancho: NumberDecimal("12.0"),
+            altura: NumberDecimal("8.0")
+        },
+        valor: NumberDecimal("1600"),
+        direccion_entrega: {
+            estado: "Jalisco",
+            ciudad: "Guadalajara",
+            calle: "Huertos",
+            colonia: "Tezozomoc",
+            numext: "321",
+            codpos: "44200"
+        },
+        id_usuario: "U014"
+    },
+    {
+        id_paquete: "P015",
+        categoria: "Productos del Hogar y Oficina",
+        peso: NumberDecimal("2.8"),
+        dimensiones: {
+            longitud: NumberDecimal("36.0"),
+            ancho: NumberDecimal("26.0"),
+            altura: NumberDecimal("20.0")
+        },
+        valor: NumberDecimal("3400"),
+        direccion_entrega: {
+            estado: "Ciudad de Mexico",
+            ciudad: "Azcapotzalco",
+            calle: "Francia",
+            colonia: "San Mateo",
+            numext: "344",
+            codpos: "14300"
+        },
+        id_usuario: "U015"
+    },
+    {
+        id_paquete: "P016",
+        categoria: "Productos Deportivos",
+        peso: NumberDecimal("3.2"),
+        dimensiones: {
+            longitud: NumberDecimal("42.0"),
+            ancho: NumberDecimal("32.0"),
+            altura: NumberDecimal("22.0")
+        },
+        valor: NumberDecimal("4800"),
+        direccion_entrega: {
+            estado: "Nuevo Leon",
+            ciudad: "Guadalupe",
+            calle: "Riachuelo",
+            colonia: "Linda Vista",
+            numext: "98",
+            codpos: "67100"
+        },
+        id_usuario: "U016"
+    },
+    {
+        id_paquete: "P017",
+        categoria: "Productos Electronicos",
+        peso: NumberDecimal("1.1"),
+        dimensiones: {
+            longitud: NumberDecimal("29.0"),
+            ancho: NumberDecimal("19.0"),
+            altura: NumberDecimal("13.0")
+        },
+        valor: NumberDecimal("4100"),
+        direccion_entrega: {
+            estado: "Veracruz",
+            ciudad: "Xalapa",
+            calle: "Mazaryk",
+            colonia: "Presidentes",
+            numext: "450",
+            codpos: "91060"
+        },
+        id_usuario: "U017"
+    },
+    {
+        id_paquete: "P018",
+        categoria: "Ropa y Accesorios",
+        peso: NumberDecimal("0.5"),
+        dimensiones: {
+            longitud: NumberDecimal("20.0"),
+            ancho: NumberDecimal("10.0"),
+            altura: NumberDecimal("8.0")
+        },
+        valor: NumberDecimal("1400"),
+        direccion_entrega: {
+            estado: "Jalisco",
+            ciudad: "Tequila",
+            calle: "La Nueva",
+            colonia: "Pastora",
+            numext: "452",
+            numint: "13",
+            codpos: "71900"
+        },
+        id_usuario: "U018"
+    },
+    {
+        id_paquete: "P019",
+        categoria: "Productos del Hogar y Oficina",
+        peso: NumberDecimal("2.1"),
+        dimensiones: {
+            longitud: NumberDecimal("32.0"),
+            ancho: NumberDecimal("22.0"),
+            altura: NumberDecimal("17.0")
+        },
+        valor: NumberDecimal("3100"),
+        direccion_entrega: {
+            estado: "Sonora",
+            ciudad: "Hermosillo",
+            calle: "Camarones",
+            colonia: "Jaguares",
+            numext: "601",
+            codpos: "84624"
+        },
+        id_usuario: "U019"
+    },
+    {
+        id_paquete: "P020",
+        categoria: "Productos Electronicos",
+        peso: NumberDecimal("1.7"),
+        dimensiones: {
+            longitud: NumberDecimal("30.0"),
+            ancho: NumberDecimal("20.0"),
+            altura: NumberDecimal("15.0")
+        },
+        valor: NumberDecimal("5400"),
+        direccion_entrega: {
+            estado: "Ciudad de Mexico",
+            ciudad: "Cuauhtemoc",
+            calle: "Lechugas",
+            colonia: "Renacimiento",
+            numext: "135",
+            numint: "13",
+            codpos: "06500"
+        },
+        id_usuario: "U020"
+    },
+    {
+        id_paquete: "P021",
+        categoria: "Ropa y Accesorios",
+        peso: NumberDecimal("0.7"),
+        dimensiones: {
+            longitud: NumberDecimal("24.0"),
+            ancho: NumberDecimal("14.0"),
+            altura: NumberDecimal("10.0")
+        },
+        valor: NumberDecimal("1700"),
+        direccion_entrega: {
+            estado: "Sinaloa",
+            ciudad: "Culiacan",
+            calle: "Lomas",
+            colonia: "San Rafael",
+            numext: "23",
+            codpos: "80300"
+        },
+        id_usuario: "U021"
+    },
+    {
+        id_paquete: "P022",
+        categoria: "Productos del Hogar y Oficina",
+        peso: NumberDecimal("2.9"),
+        dimensiones: {
+            longitud: NumberDecimal("38.0"),
+            ancho: NumberDecimal("28.0"),
+            altura: NumberDecimal("22.0")
+        },
+        valor: NumberDecimal("3600"),
+        direccion_entrega: {
+            estado: "Sonora",
+            ciudad: "Hermosillo",
+            calle: "Secreto",
+            colonia: "San Isidro",
+            numext: "240",
+            numint: "21",
+            codpos: "83400"
+        },
+        id_usuario: "U022"
+    },
+    {
+        id_paquete: "P023",
+        categoria: "Productos Deportivos",
+        peso: NumberDecimal("3.4"),
+        dimensiones: {
+            longitud: NumberDecimal("43.0"),
+            ancho: NumberDecimal("33.0"),
+            altura: NumberDecimal("24.0")
+        },
+        valor: NumberDecimal("4700"),
+        direccion_entrega: {
+            estado: "Veracruz",
+            ciudad: "Boca del Rio",
+            calle: "Nueva Guinea",
+            colonia: "Via Muerta",
+            numext: "132",
+            codpos: "91223"
+        },
+        id_usuario: "U023"
+    },
+    {
+        id_paquete: "P024",
+        categoria: "Productos Electronicos",
+        peso: NumberDecimal("1.9"),
+        dimensiones: {
+            longitud: NumberDecimal("33.0"),
+            ancho: NumberDecimal("23.0"),
+            altura: NumberDecimal("18.0")
+        },
+        valor: NumberDecimal("6200"),
+        direccion_entrega: {
+            estado: "Ciudad de Mexico",
+            ciudad: "Iztacalco",
+            calle: "Mareas",
+            colonia: "San Diego",
+            numext: "870",
+            numint: "32",
+            codpos: "13400"
+        },
+        id_usuario: "U024"
+    },
+    {
+        id_paquete: "P025",
+        categoria: "Ropa y Accesorios",
+        peso: NumberDecimal("0.8"),
+        dimensiones: {
+            longitud: NumberDecimal("25.0"),
+            ancho: NumberDecimal("15.0"),
+            altura: NumberDecimal("10.0")
+        },
+        valor: NumberDecimal("1900"),
+        direccion_entrega: {
+            estado: "Nuevo Leon",
+            ciudad: "Guadalupe",
+            calle: "Meteoro",
+            colonia: "Francisco I Madero",
+            numext: "90",
+            numint: "8",
+            codpos: "64300"
+        },
+        id_usuario: "U025"
+    },
+    {
+        id_paquete: "P026",
+        categoria: "Productos del Hogar y Oficina",
+        peso: NumberDecimal("2.4"),
+        dimensiones: {
+            longitud: NumberDecimal("34.0"),
+            ancho: NumberDecimal("24.0"),
+            altura: NumberDecimal("19.0")
+        },
+        valor: NumberDecimal("3700"),
+        direccion_entrega: {
+            estado: "Nuevo Leon",
+            ciudad: "Monterrey",
+            calle: "Av Chapultepec",
+            colonia: "Americana",
+            numext: "236",
+            numint: "38",
+            codpos: "64200"
+        },
+        id_usuario: "U026"
+    },
+    {
+        id_paquete: "P027",
+        categoria: "Productos Deportivos",
+        peso: NumberDecimal("3.7"),
+        dimensiones: {
+            longitud: NumberDecimal("46.0"),
+            ancho: NumberDecimal("36.0"),
+            altura: NumberDecimal("26.0")
+        },
+        valor: NumberDecimal("5300"),
+        direccion_entrega: {
+            estado: "Morelos",
+            ciudad: "Oaxtepec",
+            calle: "Echehatl",
+            colonia: "Oaxtepec",
+            numext: "300",
+            numint: "23",
+            codpos: "62400"
+        },
+        id_usuario: "U027"
+    },
+    {
+        id_paquete: "P028",
+        categoria: "Productos Electronicos",
+        peso: NumberDecimal("1.2"),
+        dimensiones: {
+            longitud: NumberDecimal("30.0"),
+            ancho: NumberDecimal("20.0"),
+            altura: NumberDecimal("15.0")
+        },
+        valor: NumberDecimal("5000"),
+        direccion_entrega: {
+            estado: "Ciudad de Mexico",
+            ciudad: "Iztacalco",
+            calle: "Fabelas",
+            colonia: "Aculco",
+            numext: "502",
+            codpos: "16299"
+        },
+        id_usuario: "U028"
+    },
+    {
+        id_paquete: "P029",
+        categoria: "Ropa y Accesorios",
+        peso: NumberDecimal("0.9"),
+        dimensiones: {
+            longitud: NumberDecimal("27.0"),
+            ancho: NumberDecimal("17.0"),
+            altura: NumberDecimal("12.0")
+        },
+        valor: NumberDecimal("2000"),
+        direccion_entrega: {
+            estado: "Yucatan",
+            ciudad: "Merida",
+            calle: "Valladolid",
+            colonia: "Uman",
+            numext: "22",
+            numint: "104",
+            codpos: "97833"
+        },
+        id_usuario: "U029"
+    },
+    {
+        id_paquete: "P030",
+        categoria: "Productos del Hogar y Oficina",
+        peso: NumberDecimal("2.1"),
+        dimensiones: {
+            longitud: NumberDecimal("32.0"),
+            ancho: NumberDecimal("22.0"),
+            altura: NumberDecimal("17.0")
+        },
+        valor: NumberDecimal("3100"),
+        direccion_entrega: {
+            estado: "Jalisco",
+            ciudad: "Guadalajara",
+            calle: "Proyecciones",
+            colonia: "Vallejo",
+            numext: "23",
+            codpos: "44100"
+        },
+        id_usuario: "U030"
+    },
+    {
+        id_paquete: "P031",
+        categoria: "Productos Deportivos",
+        peso: NumberDecimal("3.5"),
+        dimensiones: {
+            longitud: NumberDecimal("45.0"),
+            ancho: NumberDecimal("35.0"),
+            altura: NumberDecimal("25.0")
+        },
+        valor: NumberDecimal("5200"),
+        direccion_entrega: {
+            estado: "Ciudad de Mexico",
+            ciudad: "Gustavo A. Madero",
+            calle: "Terranova",
+            colonia: "Caucel",
+            numext: "81",
+            codpos: "07100"
+        },
+        id_usuario: "U031"
+    },
+    {
+        id_paquete: "P032",
+        categoria: "Productos Electronicos",
+        peso: NumberDecimal("1.8"),
+        dimensiones: {
+            longitud: NumberDecimal("31.0"),
+            ancho: NumberDecimal("21.0"),
+            altura: NumberDecimal("16.0")
+        },
+        valor: NumberDecimal("5900"),
+        direccion_entrega: {
+            estado: "Estado de Mexico",
+            ciudad: "Tultitlan",
+            calle: "Heros",
+            colonia: "Las Americas",
+            numext: "105",
+            codpos: "56100"
+        },
+        id_usuario: "U032"
+    },
+    {
+        id_paquete: "P033",
+        categoria: "Ropa y Accesorios",
+        peso: NumberDecimal("0.6"),
+        dimensiones: {
+            longitud: NumberDecimal("22.0"),
+            ancho: NumberDecimal("12.0"),
+            altura: NumberDecimal("9.0")
+        },
+        valor: NumberDecimal("1800"),
+        direccion_entrega: {
+            estado: "Jalisco",
+            ciudad: "Guadalajara",
+            calle: "Olimpo",
+            colonia: "Montejo",
+            numext: "39",
+            codpos: "44200"
+        },
+        id_usuario: "U033"
+    },
+    {
+        id_paquete: "P034",
+        categoria: "Productos del Hogar y Oficina",
+        peso: NumberDecimal("2.5"),
+        dimensiones: {
+            longitud: NumberDecimal("35.0"),
+            ancho: NumberDecimal("25.0"),
+            altura: NumberDecimal("18.0")
+        },
+        valor: NumberDecimal("3500"),
+        direccion_entrega: {
+            estado: "Ciudad de Mexico",
+            ciudad: "Tlalpan",
+            calle: "Franco Canadiense",
+            colonia: "Santa Lucia",
+            numext: "3422",
+            codpos: "14300"
+        },
+        id_usuario: "U034"
+    },
+    {
+        id_paquete: "P035",
+        categoria: "Productos Deportivos",
+        peso: NumberDecimal("3.3"),
+        dimensiones: {
+            longitud: NumberDecimal("40.0"),
+            ancho: NumberDecimal("30.0"),
+            altura: NumberDecimal("20.0")
+        },
+        valor: NumberDecimal("4700"),
+        direccion_entrega: {
+            estado: "Nuevo Leon",
+            ciudad: "Guadalupe",
+            calle: "Riachuelo",
+            colonia: "Consulado",
+            numext: "98",
+            codpos: "67100"
+        },
+        id_usuario: "U035"
+    },
+    {
+        id_paquete: "P036",
+        categoria: "Productos Electronicos",
+        peso: NumberDecimal("1.4"),
+        dimensiones: {
+            longitud: NumberDecimal("30.0"),
+            ancho: NumberDecimal("20.0"),
+            altura: NumberDecimal("14.0")
+        },
+        valor: NumberDecimal("4500"),
+        direccion_entrega: {
+            estado: "Veracruz",
+            ciudad: "Xalapa",
+            calle: "Supervia",
+            colonia: "San Pedro",
+            numext: "20",
+            codpos: "91060"
+        },
+        id_usuario: "U036"
+    },
+    {
+        id_paquete: "P037",
+        categoria: "Ropa y Accesorios",
+        peso: NumberDecimal("0.4"),
+        dimensiones: {
+            longitud: NumberDecimal("18.0"),
+            ancho: NumberDecimal("10.0"),
+            altura: NumberDecimal("7.0")
+        },
+        valor: NumberDecimal("1300"),
+        direccion_entrega: {
+            estado: "Jalisco",
+            ciudad: "Tequila",
+            calle: "Manzanares",
+            colonia: "Vallarta",
+            numext: "52",
+            codpos: "71900"
+        },
+        id_usuario: "U037"
+    },
+    {
+        id_paquete: "P038",
+        categoria: "Productos del Hogar y Oficina",
+        peso: NumberDecimal("2.0"),
+        dimensiones: {
+            longitud: NumberDecimal("30.0"),
+            ancho: NumberDecimal("20.0"),
+            altura: NumberDecimal("15.0")
+        },
+        valor: NumberDecimal("3100"),
+        direccion_entrega: {
+            estado: "Sonora",
+            ciudad: "Cananea",
+            calle: "Juan Escutia",
+            colonia: "Niños Heroes",
+            numext: "501",
+            codpos: "84624"
+        },
+        id_usuario: "U038"
+    },
+    {
+        id_paquete: "P039",
+        categoria: "Productos Electronicos",
+        peso: NumberDecimal("1.5"),
+        dimensiones: {
+            longitud: NumberDecimal("31.0"),
+            ancho: NumberDecimal("21.0"),
+            altura: NumberDecimal("16.0")
+        },
+        valor: NumberDecimal("5300"),
+        direccion_entrega: {
+            estado: "Ciudad de Mexico",
+            ciudad: "Cuauhtemoc",
+            calle: "Arcos",
+            colonia: "Anahuac",
+            numext: "135",
+            numint: "13",
+            codpos: "06500"
+        },
+        id_usuario: "U039"
+    },
+    {
+        id_paquete: "P040",
+        categoria: "Ropa y Accesorios",
+        peso: NumberDecimal("0.8"),
+        dimensiones: {
+            longitud: NumberDecimal("23.0"),
+            ancho: NumberDecimal("13.0"),
+            altura: NumberDecimal("9.0")
+        },
+        valor: NumberDecimal("1600"),
+        direccion_entrega: {
+            estado: "Sinaloa",
+            ciudad: "Culiacan",
+            calle: "Paseo de la Aurora",
+            colonia: "Imagenes",
+            numext: "23",
+            codpos: "80300"
+        },
+        id_usuario: "U040"
+    },
+    {
+        id_paquete: "P041",
+        categoria: "Productos del Hogar y Oficina",
+        peso: NumberDecimal("2.6"),
+        dimensiones: {
+            longitud: NumberDecimal("37.0"),
+            ancho: NumberDecimal("27.0"),
+            altura: NumberDecimal("21.0")
+        },
+        valor: NumberDecimal("3600"),
+        direccion_entrega: {
+            estado: "Sonora",
+            ciudad: "Piedras Negras",
+            calle: "Atlixco",
+            colonia: "Aztecas",
+            numext: "90",
+            codpos: "83400"
+        },
+        id_usuario: "U041"
+    },
+    {
+        id_paquete: "P042",
+        categoria: "Productos Deportivos",
+        peso: NumberDecimal("3.8"),
+        dimensiones: {
+            longitud: NumberDecimal("44.0"),
+            ancho: NumberDecimal("34.0"),
+            altura: NumberDecimal("23.0")
+        },
+        valor: NumberDecimal("4900"),
+        direccion_entrega: {
+            estado: "Veracruz",
+            ciudad: "Boca del Rio",
+            calle: "Garibaldi",
+            colonia: "Doctor Marquez",
+            numext: "1312",
+            codpos: "91203"
+        },
+        id_usuario: "U042"
+    },
+    {
+        id_paquete: "P043",
+        categoria: "Productos Electronicos",
+        peso: NumberDecimal("2.0"),
+        dimensiones: {
+            longitud: NumberDecimal("34.0"),
+            ancho: NumberDecimal("24.0"),
+            altura: NumberDecimal("18.0")
+        },
+        valor: NumberDecimal("6300"),
+        direccion_entrega: {
+            estado: "Ciudad de Mexico",
+            ciudad: "Tlahuac",
+            calle: "Concepcion",
+            colonia: "La cruz",
+            numext: "871",
+            numint: "10",
+            codpos: "13400"
+        },
+        id_usuario: "U043"
+    },
+    {
+        id_paquete: "P044",
+        categoria: "Ropa y Accesorios",
+        peso: NumberDecimal("0.7"),
+        dimensiones: {
+            longitud: NumberDecimal("24.0"),
+            ancho: NumberDecimal("14.0"),
+            altura: NumberDecimal("10.0")
+        },
+        valor: NumberDecimal("1800"),
+        direccion_entrega: {
+            estado: "Nuevo Leon",
+            ciudad: "Guadalupe",
+            calle: "Cruces",
+            colonia: "San Antonio",
+            numext: "404",
+            numint: "31",
+            codpos: "64300"
+        },
+        id_usuario: "U044"
+    },
+    {
+        id_paquete: "P045",
+        categoria: "Productos del Hogar y Oficina",
+        peso: NumberDecimal("2.9"),
+        dimensiones: {
+            longitud: NumberDecimal("38.0"),
+            ancho: NumberDecimal("28.0"),
+            altura: NumberDecimal("22.0")
+        },
+        valor: NumberDecimal("3800"),
+        direccion_entrega: {
+            estado: "Nuevo Leon",
+            ciudad: "Monterrey",
+            calle: "Los Reyes",
+            colonia: "Navarro",
+            numext: "22",
+            numint: "312",
+            codpos: "64200"
+        },
+        id_usuario: "U045"
+    },
+    {
+        id_paquete: "P046",
+        categoria: "Productos Deportivos",
+        peso: NumberDecimal("4.0"),
+        dimensiones: {
+            longitud: NumberDecimal("45.0"),
+            ancho: NumberDecimal("35.0"),
+            altura: NumberDecimal("25.0")
+        },
+        valor: NumberDecimal("5200"),
+        direccion_entrega: {
+            estado: "Ciudad de Mexico",
+            ciudad: "Gustavo A. Madero",
+            calle: "Vesta",
+            colonia: "Vizcainas",
+            numext: "135",
+            numint: "13",
+            codpos: "06500"
+        },
+        id_usuario: "U046"
+    },
+    {
+        id_paquete: "P047",
+        categoria: "Productos Electronicos",
+        peso: NumberDecimal("1.8"),
+        dimensiones: {
+            longitud: NumberDecimal("31.0"),
+            ancho: NumberDecimal("21.0"),
+            altura: NumberDecimal("16.0")
+        },
+        valor: NumberDecimal("5900"),
+        direccion_entrega: {
+            estado: "Ciudad de Mexico",
+            ciudad: "Gustavo A. Madero",
+            calle: "La Plantita",
+            colonia: "Violeta",
+            numext: "81",
+            codpos: "07100"
+        },
+        id_usuario: "U047"
+    },
+    {
+        id_paquete: "P048",
+        categoria: "Ropa y Accesorios",
+        peso: NumberDecimal("0.6"),
+        dimensiones: {
+            longitud: NumberDecimal("22.0"),
+            ancho: NumberDecimal("12.0"),
+            altura: NumberDecimal("9.0")
+        },
+        valor: NumberDecimal("1800"),
+        direccion_entrega: {
+            estado: "Jalisco",
+            ciudad: "Guadalajara",
+            calle: "Quinta Nueva",
+            colonia: "Palma",
+            numext: "236",
+            codpos: "44100"
+        },
+        id_usuario: "U048"
+    },
+    {
+        id_paquete: "P049",
+        categoria: "Productos del Hogar y Oficina",
+        peso: NumberDecimal("2.5"),
+        dimensiones: {
+            longitud: NumberDecimal("35.0"),
+            ancho: NumberDecimal("25.0"),
+            altura: NumberDecimal("18.0")
+        },
+        valor: NumberDecimal("3500"),
+        direccion_entrega: {
+            estado: "Ciudad de Mexico",
+            ciudad: "Magdalena Contreras",
+            calle: "Jamaica",
+            colonia: "Jamaica",
+            numext: "872",
+            numint: "110",
+            codpos: "13400"
+        },
+        id_usuario: "U049"
+    },
+    {
+        id_paquete: "P050",
+        categoria: "Productos Deportivos",
+        peso: NumberDecimal("3.3"),
+        dimensiones: {
+            longitud: NumberDecimal("40.0"),
+            ancho: NumberDecimal("30.0"),
+            altura: NumberDecimal("20.0")
+        },
+        valor: NumberDecimal("4700"),
+        direccion_entrega: {
+            estado: "Nuevo Leon",
+            ciudad: "Guadalupe",
+            calle: "Privada Antonio Ares",
+            colonia: "Necaxa",
+            numext: "95",
+            codpos: "67100"
+        },
+        id_usuario: "U050"
+    },
+    {
+        id_paquete: "P051",
+        categoria: "Productos Electronicos",
+        peso: NumberDecimal("1.4"),
+        dimensiones: {
+            longitud: NumberDecimal("30.0"),
+            ancho: NumberDecimal("20.0"),
+            altura: NumberDecimal("14.0")
+        },
+        valor: NumberDecimal("4500"),
+        direccion_entrega: {
+            estado: "Veracruz",
+            ciudad: "Xalapa",
+            calle: "Pomona",
+            colonia: "Pedro Moreno",
+            numext: "50",
+            codpos: "91000"
+        },
+        id_usuario: "U051"
+    },
+    {
+        id_paquete: "P052",
+        categoria: "Ropa y Accesorios",
+        peso: NumberDecimal("0.4"),
+        dimensiones: {
+            longitud: NumberDecimal("18.0"),
+            ancho: NumberDecimal("10.0"),
+            altura: NumberDecimal("7.0")
+        },
+        valor: NumberDecimal("1300"),
+        direccion_entrega: {
+            estado: "Jalisco",
+            ciudad: "Tequila",
+            calle: "Manuel Carpio",
+            colonia: "Mixcalco",
+            numext: "452",
+            numint: "13",
+            codpos: "71900"
+        },
+        id_usuario: "U052"
+    },
+    {
+        id_paquete: "P053",
+        categoria: "Productos del Hogar y Oficina",
+        peso: NumberDecimal("2.0"),
+        dimensiones: {
+            longitud: NumberDecimal("30.0"),
+            ancho: NumberDecimal("20.0"),
+            altura: NumberDecimal("15.0")
+        },
+        valor: NumberDecimal("3100"),
+        direccion_entrega: {
+            estado: "Sonora",
+            ciudad: "Hermosillo",
+            calle: "Mexico",
+            colonia: "Margarita",
+            numext: "601",
+            codpos: "84624"
+        },
+        id_usuario: "U053"
+    },
+    {
+        id_paquete: "P054",
+        categoria: "Productos Electronicos",
+        peso: NumberDecimal("1.5"),
+        dimensiones: {
+            longitud: NumberDecimal("31.0"),
+            ancho: NumberDecimal("21.0"),
+            altura: NumberDecimal("16.0")
+        },
+        valor: NumberDecimal("5300"),
+        direccion_entrega: {
+            estado: "Ciudad de Mexico",
+            ciudad: "Cuajimalpa",
+            calle: "Francos",
+            colonia: "Manzanillo",
+            numext: "1135",
+            numint: "123",
+            codpos: "06500"
+        },
+        id_usuario: "U054"
+    },
+    {
+        id_paquete: "P055",
+        categoria: "Ropa y Accesorios",
+        peso: NumberDecimal("0.8"),
+        dimensiones: {
+            longitud: NumberDecimal("23.0"),
+            ancho: NumberDecimal("13.0"),
+            altura: NumberDecimal("9.0")
+        },
+        valor: NumberDecimal("1600"),
+        direccion_entrega: {
+            estado: "Sinaloa",
+            ciudad: "Culiacan",
+            calle: "Mercurio",
+            colonia: "Nueva Dorada",
+            numext: "2321",
+            codpos: "80310"
+        },
+        id_usuario: "U055"
+    },
+    {
+        id_paquete: "P056",
+        categoria: "Productos del Hogar y Oficina",
+        peso: NumberDecimal("2.6"),
+        dimensiones: {
+            longitud: NumberDecimal("37.0"),
+            ancho: NumberDecimal("27.0"),
+            altura: NumberDecimal("21.0")
+        },
+        valor: NumberDecimal("3600"),
+        direccion_entrega: {
+            estado: "Sonora",
+            ciudad: "Luna Roja",
+            calle: "Dynamo",
+            colonia: "Gustavo Cerati",
+            numext: "666",
+            numint: "333",
+            codpos: "83401"
+        },
+        id_usuario: "U056"
+    },
+    {
+        id_paquete: "P057",
+        categoria: "Productos Deportivos",
+        peso: NumberDecimal("3.8"),
+        dimensiones: {
+            longitud: NumberDecimal("44.0"),
+            ancho: NumberDecimal("34.0"),
+            altura: NumberDecimal("23.0")
+        },
+        valor: NumberDecimal("4900"),
+        direccion_entrega: {
+            estado: "Veracruz",
+            ciudad: "Boca del Rio",
+            calle: "Fortuna",
+            colonia: "Maldicion",
+            numext: "162",
+            codpos: "91223"
+        },
+        id_usuario: "U057"
+    },
+    {
+        id_paquete: "P058",
+        categoria: "Productos Electronicos",
+        peso: NumberDecimal("2.0"),
+        dimensiones: {
+            longitud: NumberDecimal("34.0"),
+            ancho: NumberDecimal("24.0"),
+            altura: NumberDecimal("18.0")
+        },
+        valor: NumberDecimal("6300"),
+        direccion_entrega: {
+            estado: "Ciudad de Mexico",
+            ciudad: "Miguel Hidalgo",
+            calle: "Gran Canal",
+            colonia: "San Daniel",
+            numext: "32",
+            numint: "102",
+            codpos: "13402"
+        },
+        id_usuario: "U058"
+    },
+    {
+        id_paquete: "P059",
+        categoria: "Ropa y Accesorios",
+        peso: NumberDecimal("0.7"),
+        dimensiones: {
+            longitud: NumberDecimal("24.0"),
+            ancho: NumberDecimal("14.0"),
+            altura: NumberDecimal("10.0")
+        },
+        valor: NumberDecimal("1800"),
+        direccion_entrega: {
+            estado: "Nuevo Leon",
+            ciudad: "Guadalupe",
+            calle: "La Cruz",
+            colonia: "San Benito",
+            numext: "404",
+            numint: "31",
+            codpos: "64300"
+        },
+        id_usuario: "U059"
+    },
+    {
+        id_paquete: "P060",
+        categoria: "Productos del Hogar y Oficina",
+        peso: NumberDecimal("2.9"),
+        dimensiones: {
+            longitud: NumberDecimal("38.0"),
+            ancho: NumberDecimal("28.0"),
+            altura: NumberDecimal("22.0")
+        },
+        valor: NumberDecimal("3800"),
+        direccion_entrega: {
+            estado: "Nuevo Leon",
+            ciudad: "Monterrey",
+            calle: "Corazon",
+            colonia: "Rancho el Canelo",
+            numext: "236",
+            codpos: "64200"
+        },
+        id_usuario: "U060"
+    }
+]);

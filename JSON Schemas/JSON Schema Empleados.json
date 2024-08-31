@@ -1,0 +1,38 @@
+db.createCollection("empleados", {
+    validator: {
+        $jsonSchema: {
+            bsonType: "object",
+            title: "schema empleado",
+            required: ["id_empleado", "nombre", "puesto", "telefono", "email"],
+            properties: {
+                id_empleado: {
+                    bsonType: "string",
+                    description: "id unico del empleado"
+                },
+                nombre: {
+                    bsonType: "string",
+                    minLength: 2,
+                    maxLength: 50,
+                    description: "Nombre completo del empleado"
+                },
+                puesto: {
+                    bsonType: "string",
+                    enum: ["Gerente", "Repartidor"],
+                    description: "Puesto del empleado"
+                },
+                telefono: {
+                    bsonType: "string",
+                    minLength: 10,
+                    maxLength: 10,
+                    pattern: "^[0-9]{10}$",
+                    description: "Número de teléfono del empleado"
+                },
+                email: {
+                    bsonType: "string",
+                    pattern: "^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\\.[a-zA-Z]{2,}$",
+                    description: "Correo electrónico del empleado"
+                }
+            }
+        }
+    }
+});

@@ -1,0 +1,94 @@
+db.createCollection("paquetes", {
+    validator: {
+        $jsonSchema: {
+            bsonType: "object",
+            title: "schema paquetes",
+            required: ["id_paquete", "categoria", "peso", "dimensiones", "valor", "direccion_entrega", "id_usuario"],
+            properties: {
+                id_paquete: {
+                    bsonType: "string",
+                    description: "identificador del paquete"
+                },
+                categoria: {
+                    bsonType: "string",
+                    enum: ["Productos Electronicos", "Productos del Hogar y Oficina", "Ropa y Accesorios", "Productos Deportivos"],
+                    description: "Categoría del contenido del paquete"
+                },
+                peso: {
+                    bsonType: "decimal",
+                    minimum: 0.15,
+                    maximum: 30.0,
+                    description: "peso del paquete en kg"
+                },
+                dimensiones: {
+                    bsonType: "object",
+                    required: ["longitud", "ancho", "altura"],
+                    properties: {
+                        longitud: {
+                            bsonType: "decimal",
+                            minimum: 15,
+                            maximum: 100,
+                            description: "longitud en cm"
+                        },
+                        ancho: {
+                            bsonType: "decimal",
+                            minimum: 10,
+                            maximum: 60,
+                            description: "ancho en cm"
+                        },
+                        altura: {
+                            bsonType: "decimal",
+                            minimum: 5,
+                            maximum: 60,
+                            description: "altura en cm"
+                        }
+                    }
+                },
+                valor: {
+                    bsonType: "decimal",
+                    maximum: 10000,
+                    description: "valor del contenido del paquete para reembolsos en caso de robo o accidente"
+                },
+                direccion_entrega: {
+                    bsonType: "object",
+                    required: ["estado", "ciudad", "calle", "colonia", "numext", "codpos"],
+                    properties: {
+                        estado: {
+                            bsonType: "string",
+                            description: "El estado de la dirección del usuario."
+                        },
+                        ciudad: {
+                            bsonType: "string",
+                            description: "La ciudad de la dirección del usuario."
+                        },
+                        calle: {
+                            bsonType: "string",
+                            description: "La calle de la dirección del usuario."
+                        },
+                        colonia: {
+                            bsonType: "string",
+                            description: "La colonia de la dirección del usuario."
+                        },
+                        numext: {
+                            bsonType: "string",
+                            description: "El número de la dirección del usuario."
+                        },
+                        numint: {
+                            bsonType: "string",
+                            description: "El número interior de la dirección."
+                        },
+                        codpos: {
+                            bsonType: "string",
+                            pattern: "^[0-9]{5}$",
+                            description: "El código postal de la dirección."
+                        }
+                    }
+                },
+		id_usuario: {
+		    bsonType: "string",
+		    description: "identificador del usuario al que se le asigna el paquete"
+		}
+            }
+        }
+    }
+});

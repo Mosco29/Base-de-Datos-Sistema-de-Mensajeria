@@ -1,0 +1,125 @@
+db.createCollection("envios", {
+    validator: {
+        $jsonSchema: {
+            bsonType: "object",
+            title: "schema envios",
+            required: ["id_envio", "tipo_envio", "estadoenvio", "fechas", "tarifa", "id_empleado", "id_paquete", "id_sucursal"],
+            properties: {
+                id_envio: {
+                    bsonType: "string",
+                    description: "identificador del envío"
+                },
+                tipo_envio: {
+                    bsonType: "string",
+                    enum: ["Estandar", "Express"],
+                    description: "Tipo de envío del paquete"
+                },
+		estadoenvio: {
+                    bsonType: "string",
+                    enum: ["En transito", "Entregado", "Cancelado", "Retornado al remitente", "Con Retraso", "Reembolsado"]
+                },
+                fechas: {
+                    bsonType: "object",
+                    required: ["fecha_envio"],
+                    properties: {
+                        fecha_envio: {
+                            bsonType: "date",
+                            description: "fecha en que se entregó en la sucursal"
+                        },
+                        fecha_estimada: {
+                            bsonType: ["date", "null"],
+                            description: "fecha estimada de entrega"
+                        },
+                        fecha_entrega: {
+                            bsonType: ["date", "null"],
+                            description: "fecha en que se entregó el paquete"
+                        }
+                    }
+                },
+                intentos_entrega: {
+                    bsonType: "int",
+                    minimum: 0,
+                    maximum: 2
+                },
+                causasRetraso: {
+                    bsonType: "object",
+                    properties: {
+                        factores_externos: {
+                            bsonType: "array",
+                            items: {
+                                bsonType: "string",
+                                enum: ["Rutas cerradas", "Condiciones meteorológicas adversas (lluvia, neblina)"],
+                                description: "Las causas externas a la empresa del retraso en la entrega del paquete."
+                            }
+                        },
+                        factores_internos: {
+                            bsonType: "array",
+                            items: {
+                                bsonType: "string",
+                                enum: ["Saturación de paquetes", "Saturación de trabajadores"],
+                                description: "Las causas internas de la empresa del retraso en la entrega del paquete."
+                            }
+                        }
+                    }
+                },
+                cancelacion: {
+                    bsonType: "string",
+                    enum: ["Solicitada por el cliente", "Dirección de entrega no encontrada"]
+                },
+                reembolso: {
+                    bsonType: "object",
+                    properties: {
+                        cantidad: {
+                            bsonType: "decimal",
+                            description: "cantidad reembolsada"
+                        },
+                        causas: {
+                            bsonType: "object",
+                            properties: {
+                                factores_externos: {
+                                    bsonType: "array",
+                                    items: {
+                                        bsonType: "string",
+                                        enum: ["Accidente automovilístico con daño al paquete transportado", "Desastres naturales", "Robo al transportista"],
+                                        description: "Las causas externas a la empresa del reembolso."
+                                    }
+                                },
+                                factores_internos: {
+                                    bsonType: "array",
+                                    items: {
+                                        bsonType: "string",
+                                        enum: ["Errores en la gestión del inventario", "Pérdida del paquete por problemas técnicos del sistema de seguimiento"],
+                                        description: "Las causas internas de la empresa del reembolso."
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                tarifa: {
+                    bsonType: "decimal",
+                    description: "precio del envío"
+                },
+                descuento: {
+                    bsonType: "decimal",
+                    description: "se ingresa como decimal 50% ---> .5"
+                },
+                multa: {
+                    bsonType: "decimal"
+                },
+                id_empleado: {
+                    bsonType: "string",
+                    description: "identificador del trabajador al que se le asignó el envío"
+                },
+		id_paquete: {
+                    bsonType: "string",
+                    description: "identificador del paquete a enviar"
+                },
+                id_sucursal: {
+                    bsonType: "string",
+                    description: "identificador de sucursal de origen"
+                }
+            }
+        }
+    }
+});

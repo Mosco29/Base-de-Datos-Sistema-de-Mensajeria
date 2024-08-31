@@ -1,0 +1,1077 @@
+db.usuarios.insertMany([
+	{
+	id_usuario: "U001",
+	nombre_usuario: {
+		nombre: "Eduardo",
+		apellidoPaterno: "Hernandez",
+		apellidoMaterno: "Saucedo"		
+	},
+	telefono: "5514819008",
+	direccion_predeterminada:{
+		estado: "Chihuahua",
+		ciudad: "Delicias",
+		calle: "Av. Saturno",
+		colonia: "Colonia Campesina",
+		numext: "33",
+		codpos: "33010"
+	}
+	},
+	{
+	id_usuario: "U002",
+	nombre_usuario: {
+		nombre: "Giovani",
+		apellidoPaterno: "Dos Santos",
+		apellidoMaterno: "Ramirez",
+	},
+	telefono: "5534829073",
+	direccion_predeterminada: {
+		estado: "Ciudad de Mexico",
+		ciudad: "Cuauhtemoc",
+		calle: "Tlaloc",
+		colonia:"Renacimiento",
+		numext: "135",
+		numint: "13",
+		codpos: "06500"
+	}
+	},
+	{
+	id_usuario: "U003",
+	nombre_usuario: {
+		nombre: "Guillermo",
+		apellidoPaterno: "Ochoa",
+		apellidoMaterno: "Magaña",
+	},
+	telefono: "5547824432",
+	direccion_predeterminada: {
+		estado: "Sinaloa",
+		ciudad: "Culiacan",
+		calle: "Armas",
+		colonia:"Nueva Dorada",
+		numext: "23",
+		codpos: "80300"
+
+	}
+	},
+	{
+	id_usuario: "U004",
+	nombre_usuario: {
+		nombre: "Roberto",
+		apellidoPaterno: "Pulido",
+		apellidoMaterno: "Herrera",
+	},
+	telefono: "5523415583",
+	direccion_predeterminada: {
+		estado: "Sonora",
+		ciudad: "Piedras Negras",
+		calle: "Rio Nilo",
+		colonia:"Arboledas",
+		numext: "210",
+		numint: "21",
+		codpos: "83400"
+
+	}
+	},
+	{
+	id_usuario: "U005",
+	nombre_usuario: {
+		nombre: "Carlos",
+		apellidoPaterno: "Lechuga",
+		apellidoMaterno: "Martinez",
+	},
+	telefono: "5673219065",
+	direccion_predeterminada: {
+		estado: "Veracruz",
+		ciudad: "Boca del Rio",
+		calle: "Bugambilias",
+		colonia: "Tampiquera",
+		numext: "132",
+		codpos: "91223"
+
+	}
+	},
+	{
+	id_usuario: "U006",
+	nombre_usuario: {
+		nombre: "Rodrigo",
+		apellidoPaterno: "Valdes",
+		apellidoMaterno: "Herrera",
+	},
+	telefono: "5527042626",
+	direccion_predeterminada: {
+		estado: "Ciudad de Mexico",
+		ciudad: "Tlahuac",
+		calle: "Canal Seco",
+		colonia: "San Juan",
+		numext: "87",
+		numint: "10",
+		codpos: "13400"
+
+	}
+	},
+	{
+	id_usuario: "U007",
+	nombre_usuario: {
+		nombre: "Ignacio",
+		apellidoPaterno: "Marquez",
+		apellidoMaterno: "Moreno",
+	},
+	telefono: "5643123367",
+	direccion_predeterminada: {
+		estado: "Nuevo Leon",
+		ciudad: "Guadalupe",
+		calle: "Cruces",
+		colonia: "San Antonio",
+		numext: "404",
+		numint: "31",
+		codpos: "64300"
+
+	}
+	},
+	{
+	id_usuario: "U008",
+	nombre_usuario: {
+		nombre: "Alejandro",
+		apellidoPaterno: "Alanis",
+		apellidoMaterno: "Rivera",
+	},
+	telefono: "5583476654",
+	direccion_predeterminada: {
+		estado: "Nuevo Leon",
+		ciudad: "Monterrey",
+		calle: "Claveria",
+		colonia:"Angeles",
+		numext: "236",
+		numint: "3",
+		codpos: "64200"
+
+	}
+	},
+	{
+	id_usuario: "U009",
+	nombre_usuario: {
+		nombre: "Maximiliano",
+		apellidoPaterno: "Delgado",
+		apellidoMaterno: "Canales",
+	},
+	telefono: "5589543082",
+	direccion_predeterminada: {
+		estado: "Morelos",
+		ciudad: "Tlayacapan",
+		calle: "Begonia",
+		colonia:"Tlayacapan",
+		numext: "300",
+		numint: "4",
+		codpos: "62400"
+
+	}
+	},
+	{
+	id_usuario: "U010",
+	nombre_usuario: {
+		nombre: "Jorge",
+		apellidoPaterno: "Sanchez",
+		apellidoMaterno: "Cariño",
+	},
+	telefono: "5532438976",
+	direccion_predeterminada: {
+		estado: "Ciudad de Mexico",
+		ciudad: "Iztapalapa",
+		calle: "Vicente Guerrero",
+		colonia:"San Miguel",
+		numext: "502",
+		numint: "32",
+		codpos: "16299"
+
+	}
+	},
+	{
+	id_usuario: "U011",
+	nombre_usuario: {
+		nombre: "Diego",
+		apellidoPaterno: "Garcia",
+		apellidoMaterno: "Renteria",
+	},
+	telefono: "5532876643",
+	direccion_predeterminada: {
+		estado: "Yucatan",
+		ciudad: "Merida",
+		calle: "Islas",
+		colonia:"Alamos del Sur",
+		numext: "22",
+		numint: "104",
+		codpos: "97833"
+
+	}
+	},
+	{
+	id_usuario: "U012",
+	nombre_usuario: {
+		nombre: "Brian",
+		apellidoPaterno: "Alcala",
+		apellidoMaterno: "Dominguez",
+	},
+	telefono: "5743722833",
+	direccion_predeterminada: {
+		estado: "Jalisco",
+		ciudad: "Guadalajara",
+		calle: "Proyecto de plantas",
+		colonia:"Nueva Industrial",
+		numext: "23",
+		codpos: "44100"
+
+	}
+	},
+	{
+	id_usuario: "U013",
+	nombre_usuario: {
+		nombre: "Mauricio",
+		apellidoPaterno: "Moreno",
+		apellidoMaterno: "Cortez",
+	},
+	telefono: "5543764321",
+	direccion_predeterminada: {
+		estado: "Ciudad de Mexico",
+		ciudad: "Gustavo A. Madero",
+		calle: "Calle 310",
+		colonia:"Atzacoalco",
+		numext: "81",
+		codpos: "07100"
+
+	}
+	},
+	{
+	id_usuario: "U014",
+	nombre_usuario: {
+		nombre: "Isaac",
+		apellidoPaterno: "Saenz",
+		apellidoMaterno: "Rangel",
+	},
+	telefono: "5543822355",
+	direccion_predeterminada: {
+		estado: "Estado de Mexico",
+		ciudad: "Naucalpan",
+		calle: "Guadalupe",
+		colonia:"Praderas",
+		numext: "165",
+		codpos: "56100"
+
+	}
+	},
+	{
+	id_usuario: "U015",
+	nombre_usuario: {
+		nombre: "Ximena",
+		apellidoPaterno: "Carrillo",
+		apellidoMaterno: "Baños",
+	},
+	telefono: "5523324554",
+	direccion_predeterminada: {
+		estado: "Jalisco",
+		ciudad: "Guadalajara",
+		calle: "Nubes",
+		colonia:"Tecaxtitla",
+		numext: "321",
+		codpos: "44200"
+
+	}
+	},
+	{
+	id_usuario: "U016",
+	nombre_usuario: {
+		nombre: "Jazmin",
+		apellidoPaterno: "Rodriguez",
+		apellidoMaterno: "Barrera",
+	},
+	telefono: "5643255490",
+	direccion_predeterminada: {
+		estado: "Ciudad de Mexico",
+		ciudad: "Tlalpan",
+		calle: "Francisco Villa",
+		colonia:"San Miguel Ajusco",
+		numext: "344",
+		codpos: "14300"
+
+	}
+	},
+	{
+	id_usuario: "U017",
+	nombre_usuario: {
+		nombre: "Sofia",
+		apellidoPaterno: "Cordero",
+		apellidoMaterno: "Martinez",
+	},
+	telefono: "5532487769",
+	direccion_predeterminada: {
+		estado: "Nuevo Leon",
+		ciudad: "Guadalupe",
+		calle: "Riachuelo",
+		colonia: "Linda Vista",
+		numext: "98",
+		codpos: "67100"
+
+	}
+	},
+	{
+	id_usuario: "U018",
+	nombre_usuario: {
+		nombre: "Paula",
+		apellidoPaterno: "Villagran",
+		apellidoMaterno: "Diaz",
+	},
+	telefono: "5534211200",
+	direccion_predeterminada: {
+		estado: "Veracruz",
+		ciudad: "Xalapa",
+		calle: "Circuito Presidentes",
+		colonia: "Lomas Verdes",
+		numext: "450",
+		codpos: "91060"
+
+	}
+	},
+	{
+	id_usuario: "U019",
+	nombre_usuario: {
+		nombre: "Maria",
+		apellidoPaterno: "Barrientos",
+		apellidoMaterno: "Aguilera",
+	},
+	telefono: "5643233290",
+	direccion_predeterminada: {
+		estado: "Jalisco",
+		ciudad: "Tequila",
+		calle: "Marte",
+		colonia: "Juquila",
+		numext: "452",
+		numint: "13",
+		codpos: "71900"
+
+	}
+	},
+	{
+	id_usuario: "U020",
+	nombre_usuario: {
+		nombre: "Ronaldo",
+		apellidoPaterno: "Del Bosque",
+		apellidoMaterno: "Gutierrez",
+	},
+	telefono: "5542321717",
+	direccion_predeterminada: {
+		estado: "Sonora",
+		ciudad: "Cananea",
+		calle: "Guillermo Camarena",
+		colonia: "Ayuntamiento",
+		numext: "601",
+		codpos: "84624"
+
+
+	}
+	},
+	{
+        id_usuario: "U021",
+        nombre_usuario: {
+            nombre: "Laura",
+            apellidoPaterno: "Gonzalez",
+            apellidoMaterno: "Perez"
+        },
+        telefono: "5526734890",
+        direccion_predeterminada: {
+            estado: "Guanajuato",
+            ciudad: "Leon",
+            calle: "Revolucion",
+            colonia: "Centro",
+            numext: "45",
+            numint: "2",
+            codpos: "37000"
+        }
+    },
+    {
+        id_usuario: "U022",
+        nombre_usuario: {
+            nombre: "Pedro",
+            apellidoPaterno: "Lopez",
+            apellidoMaterno: "Montejo"
+        },
+        telefono: "5567238490",
+        direccion_predeterminada: {
+            estado: "Guerrero",
+            ciudad: "Acapulco",
+            calle: "Costera",
+            colonia: "Las Playas",
+            numext: "120",
+            numint: "4",
+            codpos: "39390"
+        }
+    },
+    {
+        id_usuario: "U023",
+        nombre_usuario: {
+            nombre: "Sandra",
+            apellidoPaterno: "Hernandez",
+            apellidoMaterno: "Lopez"
+        },
+        telefono: "5598237461",
+        direccion_predeterminada: {
+            estado: "Puebla",
+            ciudad: "Puebla",
+            calle: "Juarez",
+            colonia: "Huertos",
+            numext: "98",
+            numint: "8",
+            codpos: "72000"
+        }
+    },
+    {
+        id_usuario: "U024",
+        nombre_usuario: {
+            nombre: "Miguel",
+            apellidoPaterno: "Ramirez",
+            apellidoMaterno: "Sanchez"
+        },
+        telefono: "5536729841",
+        direccion_predeterminada: {
+            estado: "Oaxaca",
+            ciudad: "Oaxaca",
+            calle: "Independencia",
+            colonia: "Centro",
+            numext: "56",
+            numint: "12",
+            codpos: "68000"
+        }
+    },
+    {
+        id_usuario: "U025",
+        nombre_usuario: {
+            nombre: "Ana",
+            apellidoPaterno: "Fernandez",
+            apellidoMaterno: "Gomez"
+        },
+        telefono: "5546738290",
+        direccion_predeterminada: {
+            estado: "Queretaro",
+            ciudad: "Queretaro",
+            calle: "Constituyentes",
+            colonia: "Pueblito",
+            numext: "200",
+            codpos: "76000"
+        }
+    },
+    {
+        id_usuario: "U026",
+        nombre_usuario: {
+            nombre: "Carlos",
+            apellidoPaterno: "Vazquez",
+            apellidoMaterno: "Castro"
+        },
+        telefono: "5578901234",
+        direccion_predeterminada: {
+            estado: "Tabasco",
+            ciudad: "Villahermosa",
+            calle: "27 de Febrero",
+            colonia: "Centro",
+            numext: "101",
+            codpos: "86000"
+        }
+    },
+    {
+        id_usuario: "U027",
+        nombre_usuario: {
+            nombre: "Maria",
+            apellidoPaterno: "Gonzalez",
+            apellidoMaterno: "Hernandez"
+        },
+        telefono: "5538927641",
+        direccion_predeterminada: {
+            estado: "Chiapas",
+            ciudad: "Tuxtla Gutierrez",
+            calle: "Central",
+            colonia: "San Roque",
+            numext: "89",
+            codpos: "29000"
+        }
+    },
+    {
+        id_usuario: "U028",
+        nombre_usuario: {
+            nombre: "Luis",
+            apellidoPaterno: "Mendez",
+            apellidoMaterno: "Martinez"
+        },
+        telefono: "5596743210",
+        direccion_predeterminada: {
+            estado: "Hidalgo",
+            ciudad: "Pachuca",
+            calle: "Madero",
+            colonia: "Centro",
+            numext: "145",
+            numint: "2",
+            codpos: "42000"
+        }
+    },
+    {
+        id_usuario: "U029",
+        nombre_usuario: {
+            nombre: "Alejandra",
+            apellidoPaterno: "Manilla",
+            apellidoMaterno: "Gomez"
+        },
+        telefono: "5542316789",
+        direccion_predeterminada: {
+            estado: "Cuidad de Mexico",
+            ciudad: "Tlalpan",
+            calle: "Plan de Ayala",
+            colonia: "Acatlan",
+            numext: "30",
+            numint: "4",
+            codpos: "62000"
+        }
+    },
+    {
+        id_usuario: "U030",
+        nombre_usuario: {
+            nombre: "Jurgen",
+            apellidoPaterno: "Perez",
+            apellidoMaterno: "Reyes"
+        },
+        telefono: "5538297401",
+        direccion_predeterminada: {
+            estado: "Ciudad de Mexico",
+            ciudad: "Xochimilco",
+            calle: "Canal Seco",
+            colonia: "Xochimilco",
+            numext: "78",
+            codpos: "16100"
+        }
+    },
+    {
+        id_usuario: "U031",
+        nombre_usuario: {
+            nombre: "Claudia",
+            apellidoPaterno: "Dorantes",
+            apellidoMaterno: "Martinez"
+        },
+        telefono: "5589732410",
+        direccion_predeterminada: {
+            estado: "Nuevo Leon",
+            ciudad: "Guadalupe",
+            calle: "Gran Canal",
+            colonia: "Guadalupe",
+            numext: "90",
+            codpos: "64300"
+        }
+    },
+    {
+        id_usuario: "U032",
+        nombre_usuario: {
+            nombre: "Fernando",
+            apellidoPaterno: "Rodriguez",
+            apellidoMaterno: "Gonzalez"
+        },
+        telefono: "5573289410",
+        direccion_predeterminada: {
+            estado: "Aguascalientes",
+            ciudad: "Aguascalientes",
+            calle: "Lopez Mateos",
+            colonia: "San Marcos",
+            numext: "120",
+            numint: "10",
+            codpos: "20000"
+        }
+    },
+    {
+        id_usuario: "U033",
+        nombre_usuario: {
+            nombre: "Andrea",
+            apellidoPaterno: "Gomez",
+            apellidoMaterno: "Gomez"
+        },
+        telefono: "5568213749",
+        direccion_predeterminada: {
+            estado: "Veracruz",
+            ciudad: "Boca del Rio",
+            calle: "Norte 34",
+            colonia: "Tampiquera",
+            numext: "200",
+            numint: "3",
+            codpos: "94290"
+        }
+    },
+    {
+        id_usuario: "U034",
+        nombre_usuario: {
+            nombre: "Franco",
+            apellidoPaterno: "Jimenez",
+            apellidoMaterno: "Sanchez"
+        },
+        telefono: "5539218740",
+        direccion_predeterminada: {
+            estado: "Jalisco",
+            ciudad: "Guadalajara",
+            calle: "Hidalgo",
+            colonia: "El Moralete",
+            numext: "60",
+            numint: "4",
+            codpos: "44110"
+        }
+    },
+    {
+        id_usuario: "U035",
+        nombre_usuario: {
+            nombre: "Paola",
+            apellidoPaterno: "Hernandez",
+            apellidoMaterno: "Lopez"
+        },
+        telefono: "5589123470",
+        direccion_predeterminada: {
+            estado: "Baja California",
+            ciudad: "Tijuana",
+            calle: "Internacional",
+            colonia: "Chapultepec",
+            numext: "50",
+            numint: "2",
+            codpos: "22000"
+        }
+    },
+    {
+        id_usuario: "U036",
+        nombre_usuario: {
+            nombre: "Adriana",
+            apellidoPaterno: "Torres",
+            apellidoMaterno: "Ramirez"
+        },
+        telefono: "5578932104",
+        direccion_predeterminada: {
+            estado: "Nayarit",
+            ciudad: "Tepic",
+            calle: "Morelos",
+            colonia: "Centro",
+            numext: "101",
+            numint: "1",
+            codpos: "63000"
+        }
+    },
+    {
+        id_usuario: "U037",
+        nombre_usuario: {
+            nombre: "Miguel",
+            apellidoPaterno: "Castillo",
+            apellidoMaterno: "Hernandez"
+        },
+        telefono: "5546789231",
+        direccion_predeterminada: {
+            estado: "Ciudad de Mexico",
+            ciudad: "Tlalpan",
+            calle: "Constitucion",
+            colonia: "Guadalupe",
+            numext: "145",
+            codpos: "14100"
+        }
+    },
+    {
+        id_usuario: "U038",
+        nombre_usuario: {
+            nombre: "Luis",
+            apellidoPaterno: "Gomez",
+            apellidoMaterno: "Garcia"
+        },
+        telefono: "5567238491",
+        direccion_predeterminada: {
+            estado: "Yucatan",
+            ciudad: "Merida",
+            calle: "Montes de Ame",
+            colonia: "Las Americas",
+            numext: "200",
+            numint: "3",
+            codpos: "97000"
+        }
+    },
+    {
+        id_usuario: "U039",
+        nombre_usuario: {
+            nombre: "Carl",
+            apellidoPaterno: "Mendez",
+            apellidoMaterno: "Ruiz"
+        },
+        telefono: "5578239461",
+        direccion_predeterminada: {
+            estado: "Ciudad de Mexico",
+            ciudad: "Cuauhtemoc",
+            calle: "Norte 59",
+            colonia: "Centro",
+            numext: "98",
+            numint: "8",
+            codpos: "06999"
+        }
+    },
+    {
+        id_usuario: "U040",
+        nombre_usuario: {
+            nombre: "Ismael",
+            apellidoPaterno: "Vazquez",
+            apellidoMaterno: "Hernandez"
+        },
+        telefono: "5589342101",
+        direccion_predeterminada: {
+            estado: "Quintana Roo",
+            ciudad: "Cancun",
+            calle: "Tulum",
+            colonia: "Centro",
+            numext: "56",
+            numint: "12",
+            codpos: "77500"
+        }
+    },
+    {
+        id_usuario: "U041",
+        nombre_usuario: {
+            nombre: "Ricardo",
+            apellidoPaterno: "Ortiz",
+            apellidoMaterno: "Sanchez"
+        },
+        telefono: "5537894560",
+        direccion_predeterminada: {
+            estado: "San Luis Potosi",
+            ciudad: "San Luis Potosi",
+            calle: "Venustiano Carranza",
+            colonia: "Centro",
+            numext: "123",
+            numint: "1",
+            codpos: "78000"
+        }
+    },
+    {
+        id_usuario: "U042",
+        nombre_usuario: {
+            nombre: "Martha",
+            apellidoPaterno: "Dominguez",
+            apellidoMaterno: "Hernandez"
+        },
+        telefono: "5546789301",
+        direccion_predeterminada: {
+            estado: "Chihuahua",
+            ciudad: "Chihuahua",
+            calle: "Paseo Bolivar",
+            colonia: "Centro",
+            numext: "345",
+            codpos: "31000"
+        }
+    },
+    {
+        id_usuario: "U043",
+        nombre_usuario: {
+            nombre: "Raul",
+            apellidoPaterno: "Jimenez",
+            apellidoMaterno: "Gomez"
+        },
+        telefono: "5578923401",
+        direccion_predeterminada: {
+            estado: "Coahuila",
+            ciudad: "Saltillo",
+            calle: "Victoria",
+            colonia: "Centro",
+            numext: "567",
+            numint: "3",
+            codpos: "25000"
+        }
+    },
+    {
+        id_usuario: "U044",
+        nombre_usuario: {
+            nombre: "Isabel",
+            apellidoPaterno: "Gonzalez",
+            apellidoMaterno: "Perez"
+        },
+        telefono: "5526789430",
+        direccion_predeterminada: {
+            estado: "Baja California Sur",
+            ciudad: "La Paz",
+            calle: "Madero",
+            colonia: "Centro",
+            numext: "789",
+            numint: "4",
+            codpos: "23000"
+        }
+    },
+    {
+        id_usuario: "U045",
+        nombre_usuario: {
+            nombre: "Oscar",
+            apellidoPaterno: "Cornejo",
+            apellidoMaterno: "Ruiz"
+        },
+        telefono: "5598347261",
+        direccion_predeterminada: {
+            estado: "Ciudad de Mexico",
+            ciudad: "Azcapotzalco",
+            calle: "Hidalgo",
+            colonia: "Altavista",
+            numext: "90",
+            codpos: "02800"
+        }
+    },
+    {
+        id_usuario: "U046",
+        nombre_usuario: {
+            nombre: "Rosa",
+            apellidoPaterno: "Lopez",
+            apellidoMaterno: "Martinez"
+        },
+        telefono: "5589674320",
+        direccion_predeterminada: {
+            estado: "Veracruz",
+            ciudad: "Veracruz",
+            calle: "Revolucion",
+            colonia: "Centro",
+            numext: "67",
+            numint: "6",
+            codpos: "91700"
+        }
+    },
+    {
+        id_usuario: "U047",
+        nombre_usuario: {
+            nombre: "Daniel",
+            apellidoPaterno: "Ramirez",
+            apellidoMaterno: "Gonzalez"
+        },
+        telefono: "5598237460",
+        direccion_predeterminada: {
+            estado: "Tabasco",
+            ciudad: "Villahermosa",
+            calle: "Madero",
+            colonia: "Centro",
+            numext: "123",
+            numint: "7",
+            codpos: "86000"
+        }
+    },
+    {
+        id_usuario: "U048",
+        nombre_usuario: {
+            nombre: "Patricia",
+            apellidoPaterno: "Sanchez",
+            apellidoMaterno: "Hernandez"
+        },
+        telefono: "5587123690",
+        direccion_predeterminada: {
+            estado: "Ciudad de Mexico",
+            ciudad: "Iztacalco",
+            calle: "Guerrero",
+            colonia: "Centro",
+            numext: "145",
+            codpos: "08999"
+        }
+    },
+    {
+        id_usuario: "U049",
+        nombre_usuario: {
+            nombre: "Alejandro",
+            apellidoPaterno: "Mendez",
+            apellidoMaterno: "Lopez"
+        },
+        telefono: "5549237810",
+        direccion_predeterminada: {
+            estado: "Nuevo Leon",
+            ciudad: "Linares",
+            calle: "Revolucion",
+            colonia: "Ocotlan",
+            numext: "789",
+            codpos: "67777"
+        }
+    },
+    {
+        id_usuario: "U050",
+        nombre_usuario: {
+            nombre: "Gabriela",
+            apellidoPaterno: "Martinez",
+            apellidoMaterno: "Jimenez"
+        },
+        telefono: "5527893401",
+        direccion_predeterminada: {
+            estado: "Nuevo Leon",
+            ciudad: "Jesus Maria del Puerto",
+            calle: "Hidalgo",
+            colonia: "San Marcos",
+            numext: "345",
+            numint: "10",
+            codpos: "67808"
+        }
+    },
+    {
+        id_usuario: "U051",
+        nombre_usuario: {
+            nombre: "Roberto Juan",
+            apellidoPaterno: "Ortiz",
+            apellidoMaterno: "Perez"
+        },
+        telefono: "5568739201",
+        direccion_predeterminada: {
+            estado: "Sonora",
+            ciudad: "Hermosillo",
+            calle: "Juarez",
+            colonia: "Centro",
+            numext: "123",
+            numint: "11",
+            codpos: "83000"
+        }
+    },
+    {
+        id_usuario: "U052",
+        nombre_usuario: {
+            nombre: "Hermenegildo",
+            apellidoPaterno: "Gonzalez",
+            apellidoMaterno: "Ramirez"
+        },
+        telefono: "5589237401",
+        direccion_predeterminada: {
+            estado: "Campeche",
+            ciudad: "Campeche",
+            calle: "Madero",
+            colonia: "Centro",
+            numext: "67",
+            codpos: "24000"
+        }
+    },
+    {
+        id_usuario: "U053",
+        nombre_usuario: {
+            nombre: "Diego",
+            apellidoPaterno: "Perez",
+            apellidoMaterno: "Lopez"
+        },
+        telefono: "5537829401",
+        direccion_predeterminada: {
+            estado: "Ciudad de Mexico",
+            ciudad: "Tlalpan",
+            calle: "Guerrero",
+            colonia: "Centro",
+            numext: "789",
+            numint: "13",
+            codpos: "14500"
+        }
+    },
+    {
+        id_usuario: "U054",
+        nombre_usuario: {
+            nombre: "Sofia",
+            apellidoPaterno: "Hernandez",
+            apellidoMaterno: "Sanchez"
+        },
+        telefono: "5546723490",
+        direccion_predeterminada: {
+            estado: "Ciudad de Mexico",
+            ciudad: "Venustiano Carranza",
+            calle: "Revolucion",
+            colonia: "Centro",
+            numext: "345",
+            numint: "14",
+            codpos: "15100"
+        }
+    },
+    {
+        id_usuario: "U055",
+        nombre_usuario: {
+            nombre: "Antonio",
+            apellidoPaterno: "Ramirez",
+            apellidoMaterno: "Gonzalez"
+        },
+        telefono: "5568237401",
+        direccion_predeterminada: {
+            estado: "Hidalgo",
+            ciudad: "Pachuca",
+            calle: "Madero",
+            colonia: "Centro",
+            numext: "67",
+            numint: "15",
+            codpos: "42000"
+        }
+    },
+    {
+        id_usuario: "U056",
+        nombre_usuario: {
+            nombre: "Claudia",
+            apellidoPaterno: "Mendez",
+            apellidoMaterno: "Lopez"
+        },
+        telefono: "5589734201",
+        direccion_predeterminada: {
+            estado: "Veracruz",
+            ciudad: "Veracruz",
+            calle: "Hidalgo",
+            colonia: "Centro",
+            numext: "123",
+            numint: "16",
+            codpos: "91700"
+        }
+    },
+    {
+        id_usuario: "U057",
+        nombre_usuario: {
+            nombre: "Luis",
+            apellidoPaterno: "Gonzalez",
+            apellidoMaterno: "Rojas"
+        },
+        telefono: "5548279360",
+        direccion_predeterminada: {
+            estado: "Chiapas",
+            ciudad: "Tuxtla Gutierrez",
+            calle: "Revolucion",
+            colonia: "San Roque",
+            numext: "89",
+            numint: "17",
+            codpos: "29000"
+        }
+    },
+    {
+        id_usuario: "U058",
+        nombre_usuario: {
+            nombre: "Ana",
+            apellidoPaterno: "Sanchez",
+            apellidoMaterno: "Juarez"
+        },
+        telefono: "5598723460",
+        direccion_predeterminada: {
+            estado: "Nuevo Leon",
+            ciudad: "La Estrella",
+            calle: "Independencia",
+            colonia: "Buenavista",
+            numext: "345",
+            codpos: "67824"
+        }
+    },
+    {
+        id_usuario: "U059",
+        nombre_usuario: {
+            nombre: "Miguel Angel",
+            apellidoPaterno: "Romero",
+            apellidoMaterno: "Ramos"
+        },
+        telefono: "5589324710",
+        direccion_predeterminada: {
+            estado: "Jalisco",
+            ciudad: "Guadalajara",
+            calle: "Juarez",
+            colonia: "Juriquita",
+            numext: "123",
+            codpos: "44150"
+        }
+    },
+    {
+        id_usuario: "U060",
+        nombre_usuario: {
+            nombre: "Fernanda",
+            apellidoPaterno: "Perez",
+            apellidoMaterno: "Gonzalez"
+        },
+        telefono: "5548927430",
+        direccion_predeterminada: {
+            estado: "Ciudad de Mexico",
+            ciudad: "Benito Juarez",
+            calle: "Guerrero",
+            colonia: "",
+            numext: "789",
+            numint: "20",
+            codpos: "03999"
+        }
+    }
+]);

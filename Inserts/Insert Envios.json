@@ -1,0 +1,1309 @@
+db.envios.insertMany([
+    {
+        id_envio: "SH001",
+        tipo_envio: "Estandar",
+        estadoenvio: "Entregado",
+        fechas: {
+            fecha_envio: ISODate("2023-01-01"),
+            fecha_estimada: ISODate("2023-01-04"),
+            fecha_entrega: ISODate("2023-01-04")
+        },
+        intentos_entrega: 1,
+        causasRetraso: {
+            factores_externos: [],
+            factores_internos: []
+        },
+        tarifa: NumberDecimal("500.0"),
+        descuento: NumberDecimal("0.05"),
+        multa: NumberDecimal("0"),
+        id_empleado: "E041",
+        id_paquete: "P001",
+        id_sucursal: "S011"
+    },
+    {
+        id_envio: "SH002",
+        tipo_envio: "Express",
+        estadoenvio: "Entregado",
+        fechas: {
+            fecha_envio: ISODate("2023-08-02"),
+            fecha_estimada: ISODate("2023-08-03"),
+            fecha_entrega: ISODate("2023-08-03")
+        },
+        intentos_entrega: 1,
+        causasRetraso: {
+            factores_externos: [],
+            factores_internos: []
+        },
+        tarifa: NumberDecimal("700.0"),
+        descuento: NumberDecimal("0.1"),
+        multa: NumberDecimal("0"),
+        id_empleado: "E002",
+        id_paquete: "P002",
+        id_sucursal: "S001"
+    },
+    {
+        id_envio: "SH003",
+        tipo_envio: "Estandar",
+        estadoenvio: "En transito",
+        fechas: {
+            fecha_envio: ISODate("2024-05-03"),
+            fecha_estimada: ISODate("2024-05-06"),
+            fecha_entrega: null
+        },
+        intentos_entrega: 0,
+        causasRetraso: {
+            factores_externos: [],
+            factores_internos: []
+        },
+        tarifa: NumberDecimal("550.0"),
+        descuento: NumberDecimal("0.05"),
+        multa: NumberDecimal("0"),
+        id_empleado: "E049",
+        id_paquete: "P003",
+        id_sucursal: "S015"
+    },
+    {
+        id_envio: "SH004",
+        tipo_envio: "Express",
+        estadoenvio: "Entregado",
+        fechas: {
+            fecha_envio: ISODate("2024-07-04"),
+            fecha_estimada: ISODate("2024-07-05"),
+            fecha_entrega: ISODate("2024-07-05")
+        },
+        intentos_entrega: 1,
+        causasRetraso: {
+            factores_externos: [],
+            factores_internos: []
+        },
+        tarifa: NumberDecimal("750.0"),
+        descuento: NumberDecimal("0.1"),
+        multa: NumberDecimal("0"),
+        id_empleado: "E043",
+        id_paquete: "P004",
+        id_sucursal: "S012"
+    },
+    {
+        id_envio: "SH005",
+        tipo_envio: "Estandar",
+        estadoenvio: "Entregado",
+        fechas: {
+            fecha_envio: ISODate("2024-04-05"),
+            fecha_estimada: ISODate("2024-04-08"),
+            fecha_entrega: ISODate("2024-04-08")
+        },
+        intentos_entrega: 1,
+        causasRetraso: {
+            factores_externos: [],
+            factores_internos: []
+        },
+        tarifa: NumberDecimal("600.0"),
+        descuento: NumberDecimal("0.05"),
+        multa: NumberDecimal("0"),
+        id_empleado: "E008",
+        id_paquete: "P005",
+        id_sucursal: "S004"
+    },
+    {
+        id_envio: "SH006",
+        tipo_envio: "Express",
+        estadoenvio: "Entregado",
+        fechas: {
+            fecha_envio: ISODate("2023-02-06"),
+            fecha_estimada: ISODate("2023-02-07"),
+            fecha_entrega: ISODate("2023-02-07")
+        },
+        intentos_entrega: 1,
+        causasRetraso: {
+            factores_externos: [],
+            factores_internos: []
+        },
+        tarifa: NumberDecimal("800.0"),
+        descuento: NumberDecimal("0.1"),
+        multa: NumberDecimal("0"),
+        id_empleado: "E006",
+        id_paquete: "P006",
+        id_sucursal: "S003"
+    },
+    {
+        id_envio: "SH007",
+        tipo_envio: "Estandar",
+        estadoenvio: "Entregado",
+        fechas: {
+            fecha_envio: ISODate("2023-10-07"),
+            fecha_estimada: ISODate("2023-10-10"),
+            fecha_entrega: ISODate("2023-10-10")
+        },
+        intentos_entrega: 1,
+        causasRetraso: {
+            factores_externos: [],
+            factores_internos: []
+        },
+        tarifa: NumberDecimal("650.0"),
+        descuento: NumberDecimal("0.05"),
+        multa: NumberDecimal("0"),
+        id_empleado: "E016",
+        id_paquete: "P007",
+        id_sucursal: "S008"
+    },
+    {
+        id_envio: "SH008",
+        tipo_envio: "Express",
+        estadoenvio: "Entregado",
+        fechas: {
+            fecha_envio: ISODate("2023-12-08"),
+            fecha_estimada: ISODate("2023-12-09"),
+            fecha_entrega: ISODate("2023-12-09")
+        },
+        intentos_entrega: 1,
+        causasRetraso: {
+            factores_externos: [],
+            factores_internos: []
+        },
+        tarifa: NumberDecimal("850.0"),
+        descuento: NumberDecimal("0.1"),
+        multa: NumberDecimal("0"),
+        id_empleado: "E004",
+        id_paquete: "P008",
+        id_sucursal: "S002"
+    },
+    {
+        id_envio: "SH009",
+        tipo_envio: "Estandar",
+        estadoenvio: "Entregado",
+        fechas: {
+            fecha_envio: ISODate("2023-04-09"),
+            fecha_estimada: ISODate("2023-04-12"),
+            fecha_entrega: ISODate("2023-04-12")
+        },
+        intentos_entrega: 1,
+        causasRetraso: {
+            factores_externos: [],
+            factores_internos: []
+        },
+        tarifa: NumberDecimal("700.0"),
+        descuento: NumberDecimal("0.05"),
+        multa: NumberDecimal("0"),
+        id_empleado: "E057",
+        id_paquete: "P009",
+        id_sucursal: "S019"
+    },
+    {
+        id_envio: "SH010",
+        tipo_envio: "Express",
+        estadoenvio: "Entregado",
+        fechas: {
+            fecha_envio: ISODate("2024-11-10"),
+            fecha_estimada: ISODate("2024-11-11"),
+            fecha_entrega: ISODate("2024-11-11")
+        },
+        intentos_entrega: 1,
+        causasRetraso: {
+            factores_externos: [],
+            factores_internos: []
+        },
+        tarifa: NumberDecimal("900.0"),
+        descuento: NumberDecimal("0.1"),
+        multa: NumberDecimal("0"),
+        id_empleado: "E058",
+        id_paquete: "P010",
+        id_sucursal: "S019"
+    },
+    {
+        id_envio: "SH011",
+        tipo_envio: "Estandar",
+        estadoenvio: "Entregado",
+        fechas: {
+            fecha_envio: ISODate("2024-09-11"),
+            fecha_estimada: ISODate("2024-09-14"),
+            fecha_entrega: ISODate("2024-09-14")
+        },
+        intentos_entrega: 1,
+        causasRetraso: {
+            factores_externos: [],
+            factores_internos: []
+        },
+        tarifa: NumberDecimal("750.0"),
+        descuento: NumberDecimal("0.05"),
+        multa: NumberDecimal("0"),
+        id_empleado: "E039",
+        id_paquete: "P011",
+        id_sucursal: "S010"
+    },
+    {
+        id_envio: "SH012",
+        tipo_envio: "Express",
+        estadoenvio: "Entregado",
+        fechas: {
+            fecha_envio: ISODate("2024-03-12"),
+            fecha_estimada: ISODate("2024-03-13"),
+            fecha_entrega: ISODate("2024-03-13")
+        },
+        intentos_entrega: 1,
+        causasRetraso: {
+            factores_externos: [],
+            factores_internos: []
+        },
+        tarifa: NumberDecimal("820.0"),
+        descuento: NumberDecimal("0.1"),
+        multa: NumberDecimal("0"),
+        id_empleado: "E010",
+        id_paquete: "P012",
+        id_sucursal: "S005"
+    },
+    {
+        id_envio: "SH013",
+        tipo_envio: "Estandar",
+        estadoenvio: "Entregado",
+        fechas: {
+            fecha_envio: ISODate("2024-06-13"),
+            fecha_estimada: ISODate("2024-06-16"),
+            fecha_entrega: ISODate("2024-06-16")
+        },
+        intentos_entrega: 1,
+        causasRetraso: {
+            factores_externos: [],
+            factores_internos: []
+        },
+        tarifa: NumberDecimal("680.0"),
+        descuento: NumberDecimal("0.05"),
+        multa: NumberDecimal("0"),
+        id_empleado: "E003",
+        id_paquete: "P013",
+        id_sucursal: "S001"
+    },
+    {
+        id_envio: "SH014",
+        tipo_envio: "Express",
+        estadoenvio: "Entregado",
+        fechas: {
+            fecha_envio: ISODate("2024-06-14"),
+            fecha_estimada: ISODate("2024-06-15"),
+            fecha_entrega: ISODate("2024-06-15")
+        },
+        intentos_entrega: 1,
+        causasRetraso: {
+            factores_externos: [],
+            factores_internos: []
+        },
+        tarifa: NumberDecimal("870.0"),
+        descuento: NumberDecimal("0.1"),
+        multa: NumberDecimal("0"),
+        id_empleado: "E007",
+        id_paquete: "P014",
+        id_sucursal: "S003"
+    },
+    {
+        id_envio: "SH015",
+        tipo_envio: "Estandar",
+        estadoenvio: "Entregado",
+        fechas: {
+            fecha_envio: ISODate("2023-01-15"),
+            fecha_estimada: ISODate("2023-01-18"),
+            fecha_entrega: ISODate("2023-01-18")
+        },
+        intentos_entrega: 1,
+        causasRetraso: {
+            factores_externos: [],
+            factores_internos: []
+        },
+        tarifa: NumberDecimal("700.0"),
+        descuento: NumberDecimal("0.05"),
+        multa: NumberDecimal("0"),
+        id_empleado: "E011",
+        id_paquete: "P015",
+        id_sucursal: "S005"
+    }
+]);
+
+db.envios.insertMany([
+    {
+        id_envio: "SH016",
+        tipo_envio: "Estandar",
+        estadoenvio: "Entregado",
+        fechas: {
+            fecha_envio: ISODate("2023-04-05"),
+            fecha_estimada: ISODate("2023-04-08"),
+            fecha_entrega: ISODate("2023-04-08")
+        },
+        intentos_entrega: 1,
+        causasRetraso: {
+            factores_externos: [],
+            factores_internos: []
+        },
+        tarifa: NumberDecimal("780.0"),
+        descuento: NumberDecimal("0.05"),
+        multa: NumberDecimal("0"),
+        id_empleado: "E002",
+        id_paquete: "P016",
+        id_sucursal: "S001"
+    },
+    {
+        id_envio: "SH017",
+        tipo_envio: "Express",
+        estadoenvio: "Entregado",
+        fechas: {
+            fecha_envio: ISODate("2023-09-06"),
+            fecha_estimada: ISODate("2023-09-07"),
+            fecha_entrega: ISODate("2023-09-07")
+        },
+        intentos_entrega: 1,
+        causasRetraso: {
+            factores_externos: [],
+            factores_internos: []
+        },
+        tarifa: NumberDecimal("920.0"),
+        descuento: NumberDecimal("0.1"),
+        multa: NumberDecimal("0"),
+        id_empleado: "E018",
+        id_paquete: "P017",
+        id_sucursal: "S008"
+    },
+    {
+        id_envio: "SH018",
+        tipo_envio: "Estandar",
+        estadoenvio: "Entregado",
+        fechas: {
+            fecha_envio: ISODate("2024-12-07"),
+            fecha_estimada: ISODate("2024-12-10"),
+            fecha_entrega: ISODate("2024-12-10")
+        },
+        intentos_entrega: 1,
+        causasRetraso: {
+            factores_externos: [],
+            factores_internos: []
+        },
+        tarifa: NumberDecimal("800.0"),
+        descuento: NumberDecimal("0.05"),
+        multa: NumberDecimal("0"),
+        id_empleado: "E012",
+        id_paquete: "P018",
+        id_sucursal: "S006"
+    },
+    {
+        id_envio: "SH019",
+        tipo_envio: "Express",
+        estadoenvio: "Entregado",
+        fechas: {
+            fecha_envio: ISODate("2024-04-08"),
+            fecha_estimada: ISODate("2024-04-09"),
+            fecha_entrega: ISODate("2024-04-09")
+        },
+        intentos_entrega: 1,
+        causasRetraso: {
+            factores_externos: [],
+            factores_internos: []
+        },
+        tarifa: NumberDecimal("950.0"),
+        descuento: NumberDecimal("0.1"),
+        multa: NumberDecimal("0"),
+        id_empleado: "E055",
+        id_paquete: "P019",
+        id_sucursal: "S018"
+    },
+    {
+        id_envio: "SH020",
+        tipo_envio: "Estandar",
+        estadoenvio: "Entregado",
+        fechas: {
+            fecha_envio: ISODate("2024-08-09"),
+            fecha_estimada: ISODate("2024-08-12"),
+            fecha_entrega: ISODate("2024-08-12")
+        },
+        intentos_entrega: 1,
+        causasRetraso: {
+            factores_externos: [],
+            factores_internos: []
+        },
+        tarifa: NumberDecimal("870.0"),
+        descuento: NumberDecimal("0.05"),
+        multa: NumberDecimal("0"),
+        id_empleado: "E043",
+        id_paquete: "P020",
+        id_sucursal: "S012"
+    },
+    {
+        id_envio: "SH021",
+        tipo_envio: "Express",
+        estadoenvio: "Entregado",
+        fechas: {
+            fecha_envio: ISODate("2024-02-10"),
+            fecha_estimada: ISODate("2024-02-11"),
+            fecha_entrega: ISODate("2024-02-11")
+        },
+        intentos_entrega: 1,
+        causasRetraso: {
+            factores_externos: [],
+            factores_internos: []
+        },
+        tarifa: NumberDecimal("910.0"),
+        descuento: NumberDecimal("0.1"),
+        multa: NumberDecimal("0"),
+        id_empleado: "E011",
+        id_paquete: "P021",
+        id_sucursal: "S005"
+    },
+    {
+        id_envio: "SH022",
+        tipo_envio: "Estandar",
+        estadoenvio: "Entregado",
+        fechas: {
+            fecha_envio: ISODate("2024-07-11"),
+            fecha_estimada: ISODate("2024-07-14"),
+            fecha_entrega: ISODate("2024-07-14")
+        },
+        intentos_entrega: 1,
+        causasRetraso: {
+            factores_externos: [],
+            factores_internos: []
+        },
+        tarifa: NumberDecimal("830.0"),
+        descuento: NumberDecimal("0.05"),
+        multa: NumberDecimal("0"),
+        id_empleado: "E014",
+        id_paquete: "P022",
+        id_sucursal: "S007"
+    },
+    {
+        id_envio: "SH023",
+        tipo_envio: "Express",
+        estadoenvio: "Entregado",
+        fechas: {
+            fecha_envio: ISODate("2023-08-12"),
+            fecha_estimada: ISODate("2023-08-13"),
+            fecha_entrega: ISODate("2023-08-14")
+        },
+        intentos_entrega: 1,
+        causasRetraso: {
+            factores_externos: [],
+            factores_internos: []
+        },
+        tarifa: NumberDecimal("940.0"),
+        descuento: NumberDecimal("0.1"),
+        multa: NumberDecimal("0"),
+        id_empleado: "E015",
+        id_paquete: "P023",
+        id_sucursal: "S007"
+    },
+    {
+        id_envio: "SH024",
+        tipo_envio: "Estandar",
+        estadoenvio: "Entregado",
+        fechas: {
+            fecha_envio: ISODate("2023-04-13"),
+            fecha_estimada: ISODate("2023-04-16"),
+            fecha_entrega: ISODate("2023-04-16")
+        },
+        intentos_entrega: 1,
+        causasRetraso: {
+            factores_externos: [],
+            factores_internos: []
+        },
+        tarifa: NumberDecimal("850.0"),
+        descuento: NumberDecimal("0.05"),
+        multa: NumberDecimal("0"),
+        id_empleado: "E045",
+        id_paquete: "P024",
+        id_sucursal: "S013"
+    },
+    {
+        id_envio: "SH025",
+        tipo_envio: "Express",
+        estadoenvio: "Entregado",
+        fechas: {
+            fecha_envio: ISODate("2024-02-14"),
+            fecha_estimada: ISODate("2024-02-15"),
+            fecha_entrega: ISODate("2024-02-15")
+        },
+        intentos_entrega: 1,
+        causasRetraso: {
+            factores_externos: [],
+            factores_internos: []
+        },
+        tarifa: NumberDecimal("930.0"),
+        descuento: NumberDecimal("0.1"),
+        multa: NumberDecimal("0"),
+        id_empleado: "E047",
+        id_paquete: "P025",
+        id_sucursal: "S014"
+    },
+    {
+        id_envio: "SH026",
+        tipo_envio: "Estandar",
+        estadoenvio: "Entregado",
+        fechas: {
+            fecha_envio: ISODate("2024-02-15"),
+            fecha_estimada: ISODate("2024-02-18"),
+            fecha_entrega: ISODate("2024-02-18")
+        },
+        intentos_entrega: 1,
+        causasRetraso: {
+            factores_externos: [],
+            factores_internos: []
+        },
+        tarifa: NumberDecimal("780.0"),
+        descuento: NumberDecimal("0.05"),
+        multa: NumberDecimal("0"),
+        id_empleado: "E053",
+        id_paquete: "P026",
+        id_sucursal: "S017"
+    },
+    {
+        id_envio: "SH027",
+        tipo_envio: "Express",
+        estadoenvio: "Entregado",
+        fechas: {
+            fecha_envio: ISODate("2024-10-16"),
+            fecha_estimada: ISODate("2024-10-17"),
+            fecha_entrega: ISODate("2024-10-17")
+        },
+        intentos_entrega: 1,
+        causasRetraso: {
+            factores_externos: [],
+            factores_internos: []
+        },
+        tarifa: NumberDecimal("960.0"),
+        descuento: NumberDecimal("0.1"),
+        multa: NumberDecimal("0"),
+        id_empleado: "E059",
+        id_paquete: "P027",
+        id_sucursal: "S020"
+    },
+    {
+        id_envio: "SH028",
+        tipo_envio: "Estandar",
+        estadoenvio: "Entregado",
+        fechas: {
+            fecha_envio: ISODate("2024-10-17"),
+            fecha_estimada: ISODate("2024-10-20"),
+            fecha_entrega: ISODate("2024-10-20")
+        },
+        intentos_entrega: 1,
+        causasRetraso: {
+            factores_externos: [],
+            factores_internos: []
+        },
+        tarifa: NumberDecimal("800.0"),
+        descuento: NumberDecimal("0.05"),
+        multa: NumberDecimal("0"),
+        id_empleado: "E048",
+        id_paquete: "P028",
+        id_sucursal: "S014"
+    },
+    {
+        id_envio: "SH029",
+        tipo_envio: "Express",
+        estadoenvio: "Entregado",
+        fechas: {
+            fecha_envio: ISODate("2024-06-18"),
+            fecha_estimada: ISODate("2024-06-19"),
+            fecha_entrega: ISODate("2024-06-20")
+        },
+        intentos_entrega: 1,
+        causasRetraso: {
+            factores_externos: [],
+            factores_internos: []
+        },
+        tarifa: NumberDecimal("920.0"),
+        descuento: NumberDecimal("0.1"),
+        multa: NumberDecimal("0"),
+        id_empleado: "E002",
+        id_paquete: "P029",
+        id_sucursal: "S001"
+    },
+    {
+        id_envio: "SH030",
+        tipo_envio: "Estandar",
+        estadoenvio: "Entregado",
+        fechas: {
+            fecha_envio: ISODate("2024-07-19"),
+            fecha_estimada: ISODate("2024-07-22"),
+            fecha_entrega: ISODate("2024-07-22")
+        },
+        intentos_entrega: 1,
+        causasRetraso: {
+            factores_externos: [],
+            factores_internos: []
+        },
+        tarifa: NumberDecimal("840.0"),
+        descuento: NumberDecimal("0.05"),
+        multa: NumberDecimal("0"),
+        id_empleado: "E007",
+        id_paquete: "P030",
+        id_sucursal: "S003"
+    }
+]);
+
+db.envios.insertMany([
+    {
+        id_envio: "SH031",
+        tipo_envio: "Estandar",
+        estadoenvio: "En transito",
+        fechas: {
+            fecha_envio: ISODate("2023-02-01"),
+            fecha_estimada: ISODate("2023-02-05"),
+            fecha_entrega: null
+        },
+        intentos_entrega: 0,
+        causasRetraso: {
+            factores_externos: [],
+            factores_internos: []
+        },
+        tarifa: NumberDecimal("500.0"),
+        descuento: NumberDecimal("0.05"),
+        multa: NumberDecimal("0"),
+        id_empleado: "E018",
+        id_paquete: "P031",
+        id_sucursal: "S008"
+    },
+    {
+        id_envio: "SH032",
+        tipo_envio: "Express",
+        estadoenvio: "Cancelado",
+        fechas: {
+            fecha_envio: ISODate("2023-08-02"),
+            fecha_estimada: ISODate("2023-08-03"),
+            fecha_entrega: null
+        },
+        intentos_entrega: 0,
+        causasRetraso: {
+            factores_externos: [],
+            factores_internos: []
+        },
+        cancelacion: "Solicitada por el cliente",
+        tarifa: NumberDecimal("700.0"),
+        descuento: NumberDecimal("0.1"),
+        multa: NumberDecimal("0"),
+        id_empleado: "E010",
+        id_paquete: "P032",
+        id_sucursal: "S005"
+    },
+    {
+        id_envio: "SH033",
+        tipo_envio: "Estandar",
+        estadoenvio: "Reembolsado",
+        fechas: {
+            fecha_envio: ISODate("2023-03-03"),
+            fecha_estimada: ISODate("2023-03-06"),
+            fecha_entrega: null
+        },
+        intentos_entrega: 0,
+        causasRetraso: {
+            factores_externos: [],
+            factores_internos: []
+        },
+        reembolso: {
+            cantidad: NumberDecimal("500.0"),
+            causas: {
+                factores_externos: ["Desastres naturales"],
+                factores_internos: []
+            }
+        },
+        tarifa: NumberDecimal("550.0"),
+        descuento: NumberDecimal("0.05"),
+        multa: NumberDecimal("0"),
+        id_empleado: "E009",
+        id_paquete: "P033",
+        id_sucursal: "S004"
+    },
+    {
+        id_envio: "SH034",
+        tipo_envio: "Express",
+        estadoenvio: "En transito",
+        fechas: {
+            fecha_envio: ISODate("2024-05-04"),
+            fecha_estimada: ISODate("2024-05-05"),
+            fecha_entrega: null
+        },
+        intentos_entrega: 0,
+        causasRetraso: {
+            factores_externos: ["Condiciones meteorológicas adversas (lluvia, neblina)"],
+            factores_internos: []
+        },
+        tarifa: NumberDecimal("750.0"),
+        descuento: NumberDecimal("0.1"),
+        multa: NumberDecimal("0"),
+        id_empleado: "E011",
+        id_paquete: "P034",
+        id_sucursal: "S005"
+    },
+    {
+        id_envio: "SH035",
+        tipo_envio: "Estandar",
+        estadoenvio: "Cancelado",
+        fechas: {
+            fecha_envio: ISODate("2024-01-05"),
+            fecha_estimada: ISODate("2024-01-08"),
+            fecha_entrega: null
+        },
+        intentos_entrega: 1,
+        causasRetraso: {
+            factores_externos: [],
+            factores_internos: []
+        },
+        cancelacion: "Dirección de entrega no encontrada",
+        tarifa: NumberDecimal("600.0"),
+        descuento: NumberDecimal("0.05"),
+        multa: NumberDecimal("0"),
+        id_empleado: "E020",
+        id_paquete: "P035",
+        id_sucursal: "S009"
+    },
+    {
+        id_envio: "SH036",
+        tipo_envio: "Express",
+        estadoenvio: "Reembolsado",
+        fechas: {
+            fecha_envio: ISODate("2024-09-06"),
+            fecha_estimada: ISODate("2024-09-07"),
+            fecha_entrega: null
+        },
+        intentos_entrega: 0,
+        causasRetraso: {
+            factores_externos: ["Rutas cerradas"],
+            factores_internos: []
+        },
+        reembolso: {
+            cantidad: NumberDecimal("800.0"),
+            causas: {
+                factores_externos: ["Robo al transportista"],
+                factores_internos: []
+            }
+        },
+        tarifa: NumberDecimal("800.0"),
+        descuento: NumberDecimal("0.1"),
+        multa: NumberDecimal("0"),
+        id_empleado: "E049",
+        id_paquete: "P036",
+        id_sucursal: "S015"
+    },
+    {
+        id_envio: "SH037",
+        tipo_envio: "Estandar",
+        estadoenvio: "En transito",
+        fechas: {
+            fecha_envio: ISODate("2023-07-07"),
+            fecha_estimada: ISODate("2023-07-10"),
+            fecha_entrega: null
+        },
+        intentos_entrega: 0,
+        causasRetraso: {
+            factores_externos: [],
+            factores_internos: ["Saturación de trabajadores"]
+        },
+        tarifa: NumberDecimal("650.0"),
+        descuento: NumberDecimal("0.05"),
+        multa: NumberDecimal("0"),
+        id_empleado: "E002",
+        id_paquete: "P037",
+        id_sucursal: "S001"
+    },
+    {
+        id_envio: "SH038",
+        tipo_envio: "Express",
+        estadoenvio: "Cancelado",
+        fechas: {
+            fecha_envio: ISODate("2023-12-08"),
+            fecha_estimada: ISODate("2023-12-09"),
+            fecha_entrega: null
+        },
+        intentos_entrega: 0,
+        causasRetraso: {
+            factores_externos: [],
+            factores_internos: []
+        },
+        cancelacion: "Solicitada por el cliente",
+        tarifa: NumberDecimal("850.0"),
+        descuento: NumberDecimal("0.1"),
+        multa: NumberDecimal("0"),
+        id_empleado: "E039",
+        id_paquete: "P038",
+        id_sucursal: "S010"
+    },
+    {
+        id_envio: "SH039",
+        tipo_envio: "Estandar",
+        estadoenvio: "En transito",
+        fechas: {
+            fecha_envio: ISODate("2024-10-09"),
+            fecha_estimada: ISODate("2024-10-12"),
+            fecha_entrega: null
+        },
+        intentos_entrega: 0,
+        causasRetraso: {
+            factores_externos: ["Rutas cerradas"],
+            factores_internos: []
+        },
+        tarifa: NumberDecimal("700.0"),
+        descuento: NumberDecimal("0.05"),
+        multa: NumberDecimal("0"),
+        id_empleado: "E058",
+        id_paquete: "P039",
+        id_sucursal: "S019"
+    },
+    {
+        id_envio: "SH040",
+        tipo_envio: "Express",
+        estadoenvio: "Reembolsado",
+        fechas: {
+            fecha_envio: ISODate("2024-04-10"),
+            fecha_estimada: ISODate("2024-04-11"),
+            fecha_entrega: null
+        },
+        intentos_entrega: 0,
+        causasRetraso: {
+            factores_externos: [],
+            factores_internos: ["Saturación de trabajadores"]
+        },
+        reembolso: {
+            cantidad: NumberDecimal("900.0"),
+            causas: {
+                factores_externos: [],
+                factores_internos: ["Errores en la gestión del inventario"]
+            }
+        },
+        tarifa: NumberDecimal("900.0"),
+        descuento: NumberDecimal("0.1"),
+        multa: NumberDecimal("0"),
+        id_empleado: "E040",
+        id_paquete: "P040",
+        id_sucursal: "S010"
+    },
+    {
+        id_envio: "SH041",
+        tipo_envio: "Estandar",
+        estadoenvio: "En transito",
+        fechas: {
+            fecha_envio: ISODate("2023-03-11"),
+            fecha_estimada: ISODate("2023-03-14"),
+            fecha_entrega: null
+        },
+        intentos_entrega: 0,
+        causasRetraso: {
+            factores_externos: ["Condiciones meteorológicas adversas (lluvia, neblina)"],
+            factores_internos: []
+        },
+        tarifa: NumberDecimal("750.0"),
+        descuento: NumberDecimal("0.05"),
+        multa: NumberDecimal("0"),
+        id_empleado: "E048",
+        id_paquete: "P041",
+        id_sucursal: "S014"
+    },
+    {
+        id_envio: "SH042",
+        tipo_envio: "Express",
+        estadoenvio: "Cancelado",
+        fechas: {
+            fecha_envio: ISODate("2023-05-12"),
+            fecha_estimada: ISODate("2023-05-13"),
+            fecha_entrega: null
+        },
+        intentos_entrega: 0,
+        causasRetraso: {
+            factores_externos: [],
+            factores_internos: []
+        },
+        cancelacion: "Dirección de entrega no encontrada",
+        tarifa: NumberDecimal("950.0"),
+        descuento: NumberDecimal("0.1"),
+        multa: NumberDecimal("0"),
+        id_empleado: "E042",
+        id_paquete: "P042",
+        id_sucursal: "S011"
+    },
+    {
+        id_envio: "SH043",
+        tipo_envio: "Estandar",
+        estadoenvio: "Reembolsado",
+        fechas: {
+            fecha_envio: ISODate("2024-08-13"),
+            fecha_estimada: ISODate("2024-08-16"),
+            fecha_entrega: null
+        },
+        intentos_entrega: 0,
+        causasRetraso: {
+            factores_externos: ["Condiciones meteorológicas adversas (lluvia, neblina)"],
+            factores_internos: []
+        },
+        reembolso: {
+            cantidad: NumberDecimal("800.0"),
+            causas: {
+                factores_externos: ["Desastres naturales"],
+                factores_internos: []
+            }
+        },
+        tarifa: NumberDecimal("800.0"),
+        descuento: NumberDecimal("0.05"),
+        multa: NumberDecimal("0"),
+        id_empleado: "E042",
+        id_paquete: "P043",
+        id_sucursal: "S011"
+    },
+    {
+        id_envio: "SH044",
+        tipo_envio: "Express",
+        estadoenvio: "En transito",
+        fechas: {
+            fecha_envio: ISODate("2024-09-14"),
+            fecha_estimada: ISODate("2024-09-15"),
+            fecha_entrega: null
+        },
+        intentos_entrega: 0,
+        causasRetraso: {
+            factores_externos: [],
+            factores_internos: []
+        },
+        tarifa: NumberDecimal("850.0"),
+        descuento: NumberDecimal("0.1"),
+        multa: NumberDecimal("0"),
+        id_empleado: "E044",
+        id_paquete: "P044",
+        id_sucursal: "S012"
+    },
+    {
+        id_envio: "SH045",
+        tipo_envio: "Estandar",
+        estadoenvio: "Cancelado",
+        fechas: {
+            fecha_envio: ISODate("2024-02-15"),
+            fecha_estimada: ISODate("2024-02-18"),
+            fecha_entrega: null
+        },
+        intentos_entrega: 0,
+        causasRetraso: {
+            factores_externos: [],
+            factores_internos: []
+        },
+        cancelacion: "Solicitada por el cliente",
+        tarifa: NumberDecimal("700.0"),
+        descuento: NumberDecimal("0.05"),
+        multa: NumberDecimal("0"),
+        id_empleado: "E002",
+        id_paquete: "P045",
+        id_sucursal: "S001"
+    }
+]);
+
+db.envios.insertMany([
+    {
+        id_envio: "SH046",
+        tipo_envio: "Estandar",
+        estadoenvio: "Entregado",
+        fechas: {
+            fecha_envio: ISODate("2023-03-01"),
+            fecha_estimada: ISODate("2023-03-05"),
+            fecha_entrega: ISODate("2023-03-04")
+        },
+        intentos_entrega: 1,
+        causasRetraso: {
+            factores_externos: [],
+            factores_internos: []
+        },
+        tarifa: NumberDecimal("500.0"),
+        descuento: NumberDecimal("0.05"),
+        multa: NumberDecimal("0"),
+        id_empleado: "E009",
+        id_paquete: "P046",
+        id_sucursal: "S004"
+    },
+    {
+        id_envio: "SH047",
+        tipo_envio: "Express",
+        estadoenvio: "En transito",
+        fechas: {
+            fecha_envio: ISODate("2023-05-02"),
+            fecha_estimada: ISODate("2023-05-03"),
+            fecha_entrega: null
+        },
+        intentos_entrega: 0,
+        causasRetraso: {
+            factores_externos: [],
+            factores_internos: []
+        },
+        tarifa: NumberDecimal("700.0"),
+        descuento: NumberDecimal("0.1"),
+        multa: NumberDecimal("0"),
+        id_empleado: "E054",
+        id_paquete: "P047",
+        id_sucursal: "S017"
+    },
+    {
+        id_envio: "SH048",
+        tipo_envio: "Estandar",
+        estadoenvio: "Cancelado",
+        fechas: {
+            fecha_envio: ISODate("2023-06-03"),
+            fecha_estimada: ISODate("2023-06-06"),
+            fecha_entrega: null
+        },
+        intentos_entrega: 0,
+        causasRetraso: {
+            factores_externos: [],
+            factores_internos: []
+        },
+        cancelacion: "Dirección de entrega no encontrada",
+        tarifa: NumberDecimal("600.0"),
+        descuento: NumberDecimal("0.05"),
+        multa: NumberDecimal("0"),
+        id_empleado: "E058",
+        id_paquete: "P048",
+        id_sucursal: "S019"
+    },
+    {
+        id_envio: "SH049",
+        tipo_envio: "Express",
+        estadoenvio: "Entregado",
+        fechas: {
+            fecha_envio: ISODate("2023-06-04"),
+            fecha_estimada: ISODate("2023-06-05"),
+            fecha_entrega: ISODate("2023-06-05")
+        },
+        intentos_entrega: 1,
+        causasRetraso: {
+            factores_externos: [],
+            factores_internos: []
+        },
+        tarifa: NumberDecimal("750.0"),
+        descuento: NumberDecimal("0.1"),
+        multa: NumberDecimal("0"),
+        id_empleado: "E004",
+        id_paquete: "P049",
+        id_sucursal: "S002"
+    },
+    {
+        id_envio: "SH050",
+        tipo_envio: "Estandar",
+        estadoenvio: "En transito",
+        fechas: {
+            fecha_envio: ISODate("2023-07-05"),
+            fecha_estimada: ISODate("2023-07-08"),
+            fecha_entrega: null
+        },
+        intentos_entrega: 0,
+        causasRetraso: {
+            factores_externos: ["Rutas cerradas"],
+            factores_internos: []
+        },
+        tarifa: NumberDecimal("650.0"),
+        descuento: NumberDecimal("0.05"),
+        multa: NumberDecimal("0"),
+        id_empleado: "E005",
+        id_paquete: "P050",
+        id_sucursal: "S002"
+    },
+    {
+        id_envio: "SH051",
+        tipo_envio: "Express",
+        estadoenvio: "Cancelado",
+        fechas: {
+            fecha_envio: ISODate("2024-07-06"),
+            fecha_estimada: ISODate("2024-07-07"),
+            fecha_entrega: null
+        },
+        intentos_entrega: 0,
+        causasRetraso: {
+            factores_externos: [],
+            factores_internos: []
+        },
+        cancelacion: "Solicitada por el cliente",
+        tarifa: NumberDecimal("850.0"),
+        descuento: NumberDecimal("0.1"),
+        multa: NumberDecimal("0"),
+        id_empleado: "E044",
+        id_paquete: "P051",
+        id_sucursal: "S012"
+    },
+    {
+        id_envio: "SH052",
+        tipo_envio: "Estandar",
+        estadoenvio: "Entregado",
+        fechas: {
+            fecha_envio: ISODate("2024-08-07"),
+            fecha_estimada: ISODate("2024-08-10"),
+            fecha_entrega: ISODate("2024-08-09")
+        },
+        intentos_entrega: 1,
+        causasRetraso: {
+            factores_externos: [],
+            factores_internos: []
+        },
+        tarifa: NumberDecimal("700.0"),
+        descuento: NumberDecimal("0.05"),
+        multa: NumberDecimal("0"),
+        id_empleado: "E053",
+        id_paquete: "P052",
+        id_sucursal: "S017"
+    },
+    {
+        id_envio: "SH053",
+        tipo_envio: "Express",
+        estadoenvio: "En transito",
+        fechas: {
+            fecha_envio: ISODate("2024-09-08"),
+            fecha_estimada: ISODate("2024-09-09"),
+            fecha_entrega: null
+        },
+        intentos_entrega: 0,
+        causasRetraso: {
+            factores_externos: [],
+            factores_internos: []
+        },
+        tarifa: NumberDecimal("800.0"),
+        descuento: NumberDecimal("0.1"),
+        multa: NumberDecimal("0"),
+        id_empleado: "E002",
+        id_paquete: "P053",
+        id_sucursal: "S001"
+    },
+    {
+        id_envio: "SH054",
+        tipo_envio: "Estandar",
+        estadoenvio: "Cancelado",
+        fechas: {
+            fecha_envio: ISODate("2024-03-09"),
+            fecha_estimada: ISODate("2024-03-12"),
+            fecha_entrega: null
+        },
+        intentos_entrega: 0,
+        causasRetraso: {
+            factores_externos: [],
+            factores_internos: []
+        },
+        cancelacion: "Dirección de entrega no encontrada",
+        tarifa: NumberDecimal("600.0"),
+        descuento: NumberDecimal("0.05"),
+        multa: NumberDecimal("0"),
+        id_empleado: "E003",
+        id_paquete: "P054",
+        id_sucursal: "S001"
+    },
+    {
+        id_envio: "SH055",
+        tipo_envio: "Express",
+        estadoenvio: "Entregado",
+        fechas: {
+            fecha_envio: ISODate("2024-03-10"),
+            fecha_estimada: ISODate("2024-03-11"),
+            fecha_entrega: ISODate("2024-03-13")
+        },
+        intentos_entrega: 1,
+        causasRetraso: {
+            factores_externos: [],
+            factores_internos: []
+        },
+        tarifa: NumberDecimal("750.0"),
+        descuento: NumberDecimal("0.1"),
+        multa: NumberDecimal("0"),
+        id_empleado: "E048",
+        id_paquete: "P055",
+        id_sucursal: "S014"
+    },
+    {
+        id_envio: "SH056",
+        tipo_envio: "Estandar",
+        estadoenvio: "En transito",
+        fechas: {
+            fecha_envio: ISODate("2023-03-11"),
+            fecha_estimada: ISODate("2023-03-14"),
+            fecha_entrega: null
+        },
+        intentos_entrega: 0,
+        causasRetraso: {
+            factores_externos: [],
+            factores_internos: []
+        },
+        tarifa: NumberDecimal("700.0"),
+        descuento: NumberDecimal("0.05"),
+        multa: NumberDecimal("0"),
+        id_empleado: "E009",
+        id_paquete: "P056",
+        id_sucursal: "S004"
+    },
+    {
+        id_envio: "SH057",
+        tipo_envio: "Express",
+        estadoenvio: "Cancelado",
+        fechas: {
+            fecha_envio: ISODate("2023-01-12"),
+            fecha_estimada: ISODate("2023-01-13"),
+            fecha_entrega: null
+        },
+        intentos_entrega: 0,
+        causasRetraso: {
+            factores_externos: [],
+            factores_internos: []
+        },
+        cancelacion: "Solicitada por el cliente",
+        tarifa: NumberDecimal("850.0"),
+        descuento: NumberDecimal("0.1"),
+        multa: NumberDecimal("0"),
+        id_empleado: "E059",
+        id_paquete: "P057",
+        id_sucursal: "S020"
+    },
+    {
+        id_envio: "SH058",
+        tipo_envio: "Estandar",
+        estadoenvio: "Entregado",
+        fechas: {
+            fecha_envio: ISODate("2023-05-13"),
+            fecha_estimada: ISODate("2023-05-16"),
+            fecha_entrega: ISODate("2023-05-15")
+        },
+        intentos_entrega: 1,
+        causasRetraso: {
+            factores_externos: [],
+            factores_internos: []
+        },
+        tarifa: NumberDecimal("700.0"),
+        descuento: NumberDecimal("0.05"),
+        multa: NumberDecimal("0"),
+        id_empleado: "E016",
+        id_paquete: "P058",
+        id_sucursal: "S008"
+    },
+    {
+        id_envio: "SH059",
+        tipo_envio: "Express",
+        estadoenvio: "En transito",
+        fechas: {
+            fecha_envio: ISODate("2023-10-14"),
+            fecha_estimada: ISODate("2023-10-15"),
+            fecha_entrega: null
+        },
+        intentos_entrega: 0,
+        causasRetraso: {
+            factores_externos: [],
+            factores_internos: []
+        },
+        tarifa: NumberDecimal("800.0"),
+        descuento: NumberDecimal("0.1"),
+        multa: NumberDecimal("0"),
+        id_empleado: "E011",
+        id_paquete: "P059",
+        id_sucursal: "S005"
+    },
+    {
+        id_envio: "SH060",
+        tipo_envio: "Estandar",
+        estadoenvio: "Cancelado",
+        fechas: {
+            fecha_envio: ISODate("2023-11-15"),
+            fecha_estimada: ISODate("2023-11-18"),
+            fecha_entrega: null
+        },
+        intentos_entrega: 0,
+        causasRetraso: {
+            factores_externos: [],
+            factores_internos: []
+        },
+        cancelacion: "Dirección de entrega no encontrada",
+        tarifa: NumberDecimal("600.0"),
+        descuento: NumberDecimal("0.05"),
+        multa: NumberDecimal("0"),
+        id_empleado: "E058",
+        id_paquete: "P060",
+        id_sucursal: "S019"
+    }
+]);

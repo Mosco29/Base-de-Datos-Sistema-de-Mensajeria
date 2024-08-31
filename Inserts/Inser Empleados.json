@@ -1,0 +1,421 @@
+db.empleados.insertMany([{
+	id_empleado: "E001",
+	nombre: "Juan Carlos Pereda",
+	puesto: "Gerente",
+	telefono: "5564899876",
+	email: "jcp@gmail.com"
+    },
+	{
+	id_empleado: "E002",
+	nombre: "Eduardo Campos Solano",
+	puesto: "Repartidor",
+	telefono: "5564733329",
+	email: "ecs@gmail.com"	
+	},
+	{
+	id_empleado: "E003",
+	nombre: "Armando Silva Gutierrez",
+	puesto: "Repartidor",
+	telefono: "5563234421",
+	email: "asg@hotmail.com"
+	},
+	{
+	id_empleado: "E004",
+	nombre: "David Jaramillo Barcenas",
+	puesto: "Repartidor",
+	telefono: "5676833425",
+	email: "djb@gmail.com"
+	},
+	{
+	id_empleado: "E005",
+	nombre: "Tania Paola Juarez Balderas",
+	puesto: "Repartidor",
+	telefono: "5674322301",
+	email: "tpjb@gmail.com"
+	},
+	{
+	id_empleado: "E006",
+	nombre: "Saul Escamilla Lazcano",
+	puesto: "Repartidor",
+	telefono: "5567556743",
+	email: "sel@gmail.com"
+	},
+	{
+	id_empleado: "E007",
+	nombre: "Angel Martin Vazquez Perez",
+	puesto: "Repartidor",
+	telefono: "5543527783",
+	email: "amvp@gmail.com"
+	},
+	{
+	id_empleado: "E008",
+	nombre: "Raul Mercado Ruiz",
+	puesto: "Repartidor",
+	telefono: "5543342212",
+	email: "rmr@gmail.com"
+	},
+	{
+	id_empleado: "E009",
+	nombre: "Emiliano Castillo Alpizar",
+	puesto: "Repartidor",
+	telefono: "5556755400",
+	email: "eca@gmail.com"
+	},
+	{
+	id_empleado: "E010",
+	nombre: "Octavio Garay Morales",
+	puesto: "Repartidor",
+	telefono: "5677669008",
+	email: "ogm@gmail.com"
+	},
+	{
+	id_empleado: "E011",
+	nombre: "Andrik Palacios Chapa",
+	puesto: "Repartidor",
+	telefono: "5655567784",
+	email: "apc@gmail.com"
+	},
+	{
+	id_empleado: "E012",
+	nombre: "Eric Ruiz Ruiz",
+	puesto: "Repartidor",
+	telefono: "5543234412",
+	email: "err@gmail.com"
+	},
+	{
+	id_empleado: "E013",
+	nombre: "Paola Rodriguez Martinez",
+	puesto: "Repartidor",
+	telefono: "5500102032",
+	email: "prm@gmail.com"
+	},
+	{
+	id_empleado: "E014",
+	nombre: "Yessica Perez Pardo",
+	puesto: "Repartidor",
+	telefono: "5543434556",
+	email: "ypp@gmail.com"
+	},
+	{
+	id_empleado: "E015",
+	nombre: "Angel Arizpe Mora",
+	puesto: "Repartidor",
+	telefono: "5501506066",
+	email: "aam@gmail.com"
+	},
+	{
+	id_empleado: "E016",
+	nombre: "Elias Amed Cu",
+	puesto: "Repartidor",
+	telefono: "5566290329",
+	email: "eac@gmai.com"
+	},
+	{
+	id_empleado: "E017",
+	nombre: "Mauricio Jasso Peña",
+	puesto: "Gerente",
+	telefono: "5644328750",
+	email: "mjp@gmail.com"
+	},
+	{
+	id_empleado: "E018",
+	nombre: "Fernando Mares Falomir",
+	puesto: "Repartidor",
+	telefono: "5574837650",
+	email: "fmf@gmail.com"
+	},
+	{
+	id_empleado: "E019",
+	nombre: "Oscar Daniel Hernandez Lomeli",
+	puesto: "Gerente",
+	telefono: "5467819000",
+	email: "odhl@gmail.com"
+	},
+	{
+	id_empleado: "E020",
+	nombre: "Carlos Borja Suarez",
+	puesto: "Repartidor",
+	telefono: "5876657809",
+	email: "cbj@gmail.com"
+	},
+    {
+        id_empleado: "E021",
+        nombre: "Ana Laura Muñoz",
+        puesto: "Gerente",
+        telefono: "5567812345",
+        email: "alm@gmail.com"
+    },
+    {
+        id_empleado: "E022",
+        nombre: "Luis Miguel Hernandez",
+        puesto: "Gerente",
+        telefono: "5543210987",
+        email: "lmh@gmail.com"
+    },
+    {
+        id_empleado: "E023",
+        nombre: "Sofia Rodriguez Juarez",
+        puesto: "Gerente",
+        telefono: "5532154678",
+        email: "sr@gmail.com"
+    },
+    {
+        id_empleado: "E024",
+        nombre: "Maria Fernanda Perez",
+        puesto: "Gerente",
+        telefono: "5578096543",
+        email: "mfp@gmail.com"
+    },
+    {
+        id_empleado: "E025",
+        nombre: "Ricardo Salinas Pliego",
+        puesto: "Gerente",
+        telefono: "5512346789",
+        email: "rsp@gmail.com"
+    },
+    {
+        id_empleado: "E026",
+        nombre: "Gabriela Ruiz Cornejo",
+        puesto: "Gerente",
+        telefono: "5567894321",
+        email: "grc@gmail.com"
+    },
+    {
+        id_empleado: "E027",
+        nombre: "Diego Lopez Mateos",
+        puesto: "Gerente",
+        telefono: "5543987654",
+        email: "dl@gmail.com"
+    },
+    {
+        id_empleado: "E028",
+        nombre: "Monica Castro Castillo",
+        puesto: "Gerente",
+        telefono: "5521765432",
+        email: "mcc@gmail.com"
+    },
+    {
+        id_empleado: "E029",
+        nombre: "Alejandro Torres Lopez",
+        puesto: "Gerente",
+        telefono: "5578912345",
+        email: "atl@gmail.com"
+    },
+    {
+        id_empleado: "E030",
+        nombre: "Lucia Ramirez Lomeli",
+        puesto: "Gerente",
+        telefono: "5561230987",
+        email: "lrl@gmail.com"
+    },
+    {
+        id_empleado: "E031",
+        nombre: "Carlos Martinez Wong",
+        puesto: "Gerente",
+        telefono: "5534567890",
+        email: "cmw@gmail.com"
+    },
+    {
+        id_empleado: "E032",
+        nombre: "Andrea Morales Marquez",
+        puesto: "Gerente",
+        telefono: "5543126789",
+        email: "amm@gmail.com"
+    },
+    {
+        id_empleado: "E033",
+        nombre: "Pedro Jimenez Aplizar",
+        puesto: "Gerente",
+        telefono: "5510987654",
+        email: "pja@gmail.com"
+    },
+    {
+        id_empleado: "E034",
+        nombre: "Valeria Soto Ferreira",
+        puesto: "Gerente",
+        telefono: "5532198765",
+        email: "vsf@gmail.com"
+    },
+    {
+        id_empleado: "E035",
+        nombre: "Jorge Medina Hernandez",
+        puesto: "Gerente",
+        telefono: "5578123456",
+        email: "jmh@gmail.com"
+    },
+    {
+        id_empleado: "E036",
+        nombre: "Daniela Fernandez Mora",
+        puesto: "Gerente",
+        telefono: "5567094321",
+        email: "dfm@gmail.com"
+    },
+    {
+        id_empleado: "E037",
+        nombre: "Fernando Rivas Rios",
+        puesto: "Gerente",
+        telefono: "5543098765",
+        email: "frr@gmail.com"
+    },
+    {
+        id_empleado: "E038",
+        nombre: "Roberto Castro Esperanza",
+        puesto: "Repartidor",
+        telefono: "5512349876",
+        email: "rce@gmail.com"
+    },
+    {
+        id_empleado: "E039",
+        nombre: "Mariana Perez Trujillo",
+        puesto: "Repartidor",
+        telefono: "5523458765",
+        email: "mpt@gmail.com"
+    },
+    {
+        id_empleado: "E040",
+        nombre: "Jose Hernandez Torres",
+        puesto: "Repartidor",
+        telefono: "5534567654",
+        email: "jht@gmail.com"
+    },
+    {
+        id_empleado: "E041",
+        nombre: "Laura Gutierrez Paz",
+        puesto: "Repartidor",
+        telefono: "5545676543",
+        email: "lgp@gmail.com"
+    },
+    {
+        id_empleado: "E042",
+        nombre: "Carlos Nuñez Navarrez",
+        puesto: "Repartidor",
+        telefono: "5556785432",
+        email: "cnn@gmail.com"
+    },
+    {
+        id_empleado: "E043",
+        nombre: "Elena Rojas Mirna",
+        puesto: "Repartidor",
+        telefono: "5567894321",
+        email: "erm@gmail.com"
+    },
+    {
+        id_empleado: "E044",
+        nombre: "Fernando Aguilar Franco",
+        puesto: "Repartidor",
+        telefono: "5578903210",
+        email: "faf@gmail.com"
+    },
+    {
+        id_empleado: "E045",
+        nombre: "Veronica Ramirez Mar",
+        puesto: "Repartidor",
+        telefono: "5589012109",
+        email: "vrm@gmail.com"
+    },
+    {
+        id_empleado: "E046",
+        nombre: "Andres Barranco Tamayo",
+        puesto: "Repartidor",
+        telefono: "5590121098",
+        email: "abt@gmail.com"
+    },
+    {
+        id_empleado: "E047",
+        nombre: "Daniela Diaz Ordaz",
+        puesto: "Repartidor",
+        telefono: "5511230987",
+        email: "ddo@gmail.com"
+    },
+    {
+        id_empleado: "E048",
+        nombre: "Ricardo Castillo Dorado",
+        puesto: "Repartidor",
+        telefono: "5522349876",
+        email: "rcd@gmail.com"
+    },
+    {
+        id_empleado: "E049",
+        nombre: "Monica Salinas Diaz",
+        puesto: "Repartidor",
+        telefono: "5533458765",
+        email: "msd@gmail.com"
+    },
+    {
+        id_empleado: "E050",
+        nombre: "Guillermo Flores Flores",
+        puesto: "Repartidor",
+        telefono: "5544567654",
+        email: "gff@gmail.com"
+    },
+    {
+        id_empleado: "E051",
+        nombre: "Juliana Meza Muñoz",
+        puesto: "Repartidor",
+        telefono: "5555676543",
+        email: "jmm@gmail.com"
+    },
+    {
+        id_empleado: "E052",
+        nombre: "Arturo Mendez Mendez",
+        puesto: "Repartidor",
+        telefono: "5566785432",
+        email: "amm@gmail.com"
+    },
+    {
+        id_empleado: "E053",
+        nombre: "Elsa Navarro Morales",
+        puesto: "Repartidor",
+        telefono: "5577894321",
+        email: "enm@gmail.com"
+    },
+    {
+        id_empleado: "E054",
+        nombre: "Hector Ortega Iñarritu",
+        puesto: "Repartidor",
+        telefono: "5588903210",
+        email: "hoi@gmail.com"
+    },
+    {
+        id_empleado: "E055",
+        nombre: "Alicia Vargas Vergara",
+        puesto: "Repartidor",
+        telefono: "5599012109",
+        email: "avv@gmail.com"
+    },
+    {
+        id_empleado: "E056",
+        nombre: "Luis Mendoza",
+        puesto: "Repartidor",
+        telefono: "5510121098",
+        email: "lm@gmail.com"
+    },
+    {
+        id_empleado: "E057",
+        nombre: "Patricia Santiago Montero",
+        puesto: "Repartidor",
+        telefono: "5521230987",
+        email: "psm@gmail.com"
+    },
+    {
+        id_empleado: "E058",
+        nombre: "Juan Arturo Montijo Cruz",
+        puesto: "Repartidor",
+        telefono: "5567432251",
+        email: "jamc@gmail.com"
+    },
+    {
+        id_empleado: "E059",
+        nombre: "Federico Santiago Valverde Dippeta",
+        puesto: "Repartidor",
+        telefono: "5590099981",
+        email: "fsvd@gmail.com"
+    },
+    {
+        id_empleado: "E060",
+        nombre: "Armando Jesus Dorian Muzquiz",
+        puesto: "Repartidor",
+        telefono: "5533334567",
+        email: "ajdm@gmail.com"
+    }
+]);

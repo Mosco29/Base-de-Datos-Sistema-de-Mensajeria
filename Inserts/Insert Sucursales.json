@@ -1,0 +1,357 @@
+db.sucursales.insertMany([
+    {
+        id_sucursal: "S001",
+        nombre: "Sucursal Cuauhtemoc",
+        direccion: {
+            estado: "Ciudad de Mexico",
+            ciudad: "Cuauhtemoc",
+            calle: "Reforma",
+            colonia: "Centro",
+            numext: "100",
+            numint: "1",
+            codpos: "06500"
+        },
+        telefono: "5551234567",
+        email: "cuauhtemoc@sucursales.com",
+        id_gerente: "E001",
+        fecha_apertura: ISODate("2022-03-01"),
+        ids_empleados: ["E002", "E003"]
+    },
+    {
+        id_sucursal: "S002",
+        nombre: "Sucursal Monterrey",
+        direccion: {
+            estado: "Nuevo Leon",
+            ciudad: "Monterrey",
+            calle: "Obregon",
+            colonia: "Centro",
+            numext: "200",
+            numint: "2",
+            codpos: "64000"
+        },
+        telefono: "6671234567",
+        email: "monterrey@sucursales.com",
+        id_gerente: "E017",
+        fecha_apertura: ISODate("2022-04-01"),
+        ids_empleados: ["E004", "E005"]
+    },
+    {
+        id_sucursal: "S003",
+        nombre: "Sucursal Tlalpan",
+        direccion: {
+            estado: "Ciudad de Mexico",
+            ciudad: "Tlalpan",
+            calle: "Allende",
+            colonia: "Centro",
+            numext: "300",
+            codpos: "14000"
+        },
+        telefono: "8781234567",
+        email: "tlalpan@sucursales.com",
+        id_gerente: "E019",
+        fecha_apertura: ISODate("2022-05-29"),
+        ids_empleados: ["E006", "E007"]
+    },
+    {
+        id_sucursal: "S004",
+        nombre: "Sucursal Boca del Rio",
+        direccion: {
+            estado: "Veracruz",
+            ciudad: "Boca del Rio",
+            calle: "Miguel Aleman",
+            colonia: "Centro",
+            numext: "400",
+            codpos: "94290"
+        },
+        telefono: "2291234567",
+        email: "bocadelrio@sucursales.com",
+        id_gerente: "E021",
+        fecha_apertura: ISODate("2022-06-01"),
+        ids_empleados: ["E008", "E009"]
+    },
+    {
+        id_sucursal: "S005",
+        nombre: "Sucursal Guadalajara",
+        direccion: {
+            estado: "Jalisco",
+            ciudad: "Guadalajara",
+            calle: "Norte 33",
+            colonia: "Centro",
+            numext: "500",
+            numint: "5",
+            codpos: "44100"
+        },
+        telefono: "5552345678",
+        email: "guadalajara@sucursales.com",
+        id_gerente: "E022",
+        fecha_apertura: ISODate("2022-07-02"),
+        ids_empleados: ["E010", "E011"]
+    },
+    {
+        id_sucursal: "S006",
+        nombre: "Sucursal Xalapa",
+        direccion: {
+            estado: "Veracruz",
+            ciudad: "Xalapa",
+            calle: "Constitucion",
+            colonia: "Centro",
+            numext: "600",
+            numint: "6",
+            codpos: "67100"
+        },
+        telefono: "8181234567",
+        email: "xalapa@sucursales.com",
+        id_gerente: "E023",
+        fecha_apertura: ISODate("2022-08-01"),
+        ids_empleados: ["E012", "E013"]
+    },
+    {
+        id_sucursal: "S007",
+        nombre: "Sucursal Puebla",
+        direccion: {
+            estado: "Puebla",
+            ciudad: "Puebla",
+            calle: "Zaragoza",
+            colonia: "Centro",
+            numext: "700",
+            numint: "7",
+            codpos: "33000"
+        },
+        telefono: "8182345678",
+        email: "puebla@sucursales.com",
+        id_gerente: "E024",
+        fecha_apertura: ISODate("2022-09-01"),
+        ids_empleados: ["E014", "E015"]
+    },
+    {
+        id_sucursal: "S008",
+        nombre: "Sucursal Guadalupe",
+        direccion: {
+            estado: "Nuevo Leon",
+            ciudad: "Guadalupe",
+            calle: "Morelos",
+            colonia: "Centro",
+            numext: "800",
+            codpos: "64300"
+        },
+        telefono: "7351234567",
+        email: "guadalupe@sucursales.com",
+        id_gerente: "E025",
+        fecha_apertura: ISODate("2022-10-01"),
+        ids_empleados: ["E016", "E018"]
+    },
+    {
+        id_sucursal: "S009",
+        nombre: "Sucursal Tijuana",
+        direccion: {
+            estado: "Baja California",
+            ciudad: "Tijuana",
+            calle: "San Marcos",
+            colonia: "Centro",
+            numext: "900",
+            codpos: "22000"
+        },
+        telefono: "5553456789",
+        email: "tijuana@sucursales.com",
+        id_gerente: "E026",
+        fecha_apertura: ISODate("2022-11-21"),
+        ids_empleados: ["E020", "E038"]
+    },
+    {
+        id_sucursal: "S010",
+        nombre: "Sucursal Merida",
+        direccion: {
+            estado: "Yucatan",
+            ciudad: "Merida",
+            calle: "Paseo de Montejo",
+            colonia: "Centro",
+            numext: "1000",
+            numint: "10",
+            codpos: "97000"
+        },
+        telefono: "9991234567",
+        email: "merida@sucursales.com",
+        id_gerente: "E027",
+        fecha_apertura: ISODate("2022-12-01"),
+        ids_empleados: ["E039", "E040"]
+    },
+    {
+        id_sucursal: "S011",
+        nombre: "Sucursal Chihuahua",
+        direccion: {
+            estado: "Chihuahua",
+            ciudad: "Chihuahua",
+            calle: "Avenida Vallarta",
+            colonia: "Centro",
+            numext: "1100",
+            numint: "11",
+            codpos: "44100"
+        },
+        telefono: "3331234567",
+        email: "Chihuahua@sucursales.com",
+        id_gerente: "E028",
+        fecha_apertura: ISODate("2022-01-01"),
+        ids_empleados: ["E041", "E042"]
+    },
+    {
+        id_sucursal: "S012",
+        nombre: "Sucursal Hermosillo",
+        direccion: {
+            estado: "Sonora",
+            ciudad: "Hermosillo",
+            calle: "Avenida Gran Canal",
+            colonia: "Lindavista",
+            numext: "1200",
+            numint: "12",
+            codpos: "83260"
+        },
+        telefono: "5554567890",
+        email: "hermosillo@sucursales.com",
+        id_gerente: "E029",
+        fecha_apertura: ISODate("2022-02-01"),
+        ids_empleados: ["E043", "E044"]
+    },
+    {
+        id_sucursal: "S013",
+        nombre: "Sucursal Oaxaca",
+        direccion: {
+            estado: "Oaxaca",
+            ciudad: "Oaxaca",
+            calle: "Avenida General",
+            colonia: "Centro",
+            numext: "1300",
+            numint: "13",
+            codpos: "68100"
+        },
+        telefono: "5555678901",
+        email: "oaxaca@sucursales.com",
+        id_gerente: "E030",
+        fecha_apertura: ISODate("2022-03-01"),
+        ids_empleados: ["E045", "E046"]
+    },
+    {
+        id_sucursal: "S014",
+        nombre: "Sucursal Pachuca",
+        direccion: {
+            estado: "Hidalgo",
+            ciudad: "Pachuca",
+            calle: "Camino Real",
+            colonia: "Centro",
+            numext: "1400",
+            numint: "14",
+            codpos: "94290"
+        },
+        telefono: "2291234567",
+        email: "pachuca@sucursales.com",
+        id_gerente: "E031",
+        fecha_apertura: ISODate("2022-04-09"),
+        ids_empleados: ["E047", "E048"]
+    },
+    {
+        id_sucursal: "S015",
+        nombre: "Sucursal Culiacan",
+        direccion: {
+            estado: "Sinaloa",
+            ciudad: "Culiacan",
+            calle: "Avenida Joco",
+            colonia: "Centro",
+            numext: "1500",
+            numint: "15",
+            codpos: "14000"
+        },
+        telefono: "5556789012",
+        email: "culiacan@sucursales.com",
+        id_gerente: "E032",
+        fecha_apertura: ISODate("2022-05-01"),
+        ids_empleados: ["E049", "E050"]
+    },
+    {
+        id_sucursal: "S016",
+        nombre: "Sucursal Coyoacan",
+        direccion: {
+            estado: "Ciudad de Mexico",
+            ciudad: "Coyoacan",
+            calle: "Prolongación División del Norte",
+            colonia: "Centro",
+            numext: "1600",
+            numint: "16",
+            codpos: "14300"
+        },
+        telefono: "5557890123",
+        email: "coyoacan@sucursales.com",
+        id_gerente: "E033",
+        fecha_apertura: ISODate("2022-06-01"),
+        ids_empleados: ["E051", "E052"]
+    },
+    {
+        id_sucursal: "S017",
+        nombre: "Sucursal Villahermosa",
+        direccion: {
+            estado: "Tabasco",
+            ciudad: "Villahermosa",
+            calle: "Constitucion",
+            colonia: "Centro",
+            numext: "1700",
+            numint: "17",
+            codpos: "67100"
+        },
+        telefono: "8181234567",
+        email: "villahermosa@sucursales.com",
+        id_gerente: "E034",
+        fecha_apertura: ISODate("2022-07-01"),
+        ids_empleados: ["E053", "E054"]
+    },
+    {
+        id_sucursal: "S018",
+        nombre: "Sucursal Tequila",
+        direccion: {
+            estado: "Jalisco",
+            ciudad: "Tequila",
+            calle: "Avenida 20 de Noviembre",
+            colonia: "Centro",
+            numext: "1800",
+            numint: "18",
+            codpos: "91060"
+        },
+        telefono: "2281234567",
+        email: "tequila@sucursales.com",
+        id_gerente: "E035",
+        fecha_apertura: ISODate("2022-08-01"),
+        ids_empleados: ["E055", "E056"]
+    },
+    {
+        id_sucursal: "S019",
+        nombre: "Sucursal Xochimilco",
+        direccion: {
+            estado: "Ciudad de Mexico",
+            ciudad: "Xochimilco",
+            calle: "Avenida Canales",
+            colonia: "Maria",
+            numext: "1900",
+            numint: "19",
+            codpos: "16000"
+        },
+        telefono: "3741234567",
+        email: "xochimilco@sucursales.com",
+        id_gerente: "E036",
+        fecha_apertura: ISODate("2022-09-01"),
+        ids_empleados: ["E057", "E058"]
+    },
+    {
+        id_sucursal: "S020",
+        nombre: "Sucursal Tuxtla G",
+        direccion: {
+            estado: "Chiapas",
+            ciudad: "Tuxtla Gutierrez",
+            calle: "Avenida del Nopal",
+            colonia: "Nueva Generacion",
+            numext: "1900",
+            codpos: "16000"
+        },
+        telefono: "3741234567",
+        email: "tuxtlagutierrez@sucursales.com",
+        id_gerente: "E037",
+        fecha_apertura: ISODate("2022-09-01"),
+        ids_empleados: ["E059", "E060"]
+    }
+]);

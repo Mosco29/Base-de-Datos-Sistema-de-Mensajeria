@@ -1,0 +1,83 @@
+db.createCollection("sucursales", {
+    validator: {
+        $jsonSchema: {
+            bsonType: "object",
+            title: "schema sucursal",
+            required: ["id_sucursal", "direccion", "id_gerente", "ids_empleados"],
+            properties: {
+                id_sucursal: {
+                    bsonType: "string",
+                    description: "id único de la sucursal"
+                },
+                nombre: {
+                    bsonType: "string",
+                    minLength: 2,
+                    maxLength: 50,
+                    description: "Nombre de la sucursal"
+                },
+                direccion: {
+                    bsonType: "object",
+                    required: ["estado", "ciudad", "calle", "colonia", "numext", "codpos"],
+                    properties: {
+                        estado: {
+                            bsonType: "string",
+                            description: "El estado de la dirección de sucursal."
+                        },
+                        ciudad: {
+                            bsonType: "string",
+                            description: "La ciudad de la dirección de sucursal."
+                        },
+                        calle: {
+                            bsonType: "string",
+                            description: "La calle de la dirección de sucursal."
+                        },
+                        colonia: {
+                            bsonType: "string",
+                            description: "La colonia de la dirección de sucursal."
+                        },
+                        numext: {
+                            bsonType: "string",
+                            description: "El número de la dirección de sucursal."
+                        },
+                        numint: {
+                            bsonType: "string",
+                            description: "El número interior de la sucursal."
+                        },
+                        codpos: {
+                            bsonType: "string",
+                            pattern: "^[0-9]{5}$",
+                            description: "El código postal de la sucursal."
+                        }
+                    }
+                },
+                telefono: {
+                    bsonType: "string",
+                    minLength: 10,
+                    maxLength: 10,
+                    pattern: "^[0-9]{10}$",
+                    description: "Número de teléfono de la sucursal"
+                },
+                email: {
+                    bsonType: "string",
+                    pattern: "^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\\.[a-zA-Z]{2,}$",
+                    description: "Correo electrónico de la sucursal"
+                },
+                id_gerente: {
+                    bsonType: "string",
+                    description: "id del gerente de la sucursal, referencia a empleados"
+                },
+                fecha_apertura: {
+                    bsonType: "date",
+                    description: "Fecha de inauguración"
+                },
+                ids_empleados: {
+                    bsonType: "array",
+                    description: "Lista de id's de empleados que trabajan en la sucursal",
+                    items: {
+                        bsonType: "string"
+                    }
+                }
+            }
+        }
+    }
+});

@@ -1,0 +1,73 @@
+db.createCollection("usuarios", {
+    validator: {
+        $jsonSchema: {
+            bsonType: "object",
+            title: "Json schema usuario",
+            required: ["id_usuario", "nombre_usuario", "telefono", "direccion_predeterminada"],
+            properties: {
+                id_usuario: {
+                    bsonType: "string",
+                    description: "El identificador único del usuario."
+                },
+                nombre_usuario: {
+                    bsonType: "object",
+                    required : ["nombre", "apellidoPaterno", "apellidoMaterno"],
+                    properties :{
+                        nombre: {
+                            bsonType: "string",
+                          },
+                          apellidoPaterno: {
+                            bsonType: "string",
+                          },
+                          apellidoMaterno: {
+                            bsonType: "string",
+                          }
+                    }
+                },
+                telefono: {
+                    bsonType: "string",
+                    minLength: 10,
+                    maxLength: 10,
+                    pattern: "^[0-9]{10}$",
+                    description: "Número de teléfono del empleado"
+                },
+                direccion_predeterminada: {
+                    bsonType: "object",
+                    description: "Dirección predeterminada en la cuenta del usuario.",
+                    required: ["estado", "ciudad", "calle", "colonia", "numext", "codpos"],
+                    properties: {
+                        estado: {
+                            bsonType: "string",
+                            description: "El estado de la dirección del usuario."
+                        },
+                        ciudad: {
+                            bsonType: "string",
+                            description: "La ciudad de la dirección del usuario."
+                        },
+                        calle: {
+                            bsonType: "string",
+                            description: "La calle de la dirección del usuario."
+                        },
+                        colonia : {
+                            bsonType: "string",
+                            description: "La colonia de la dirección del usuario."
+                        },
+                        numext: {
+                            bsonType: "string",
+                            description: "El número de la dirección del usuario."
+                        },
+                        numint: {
+                            bsonType: "string",
+                            description: "El número interior de la dirección."
+                        },
+                        codpos : {
+                            bsonType : "string",
+                            pattern: "^[0-9]{5}$",
+                            description : "El código postal de la dirección."
+                        }
+                    }
+                }
+            }
+        }
+    }
+});
